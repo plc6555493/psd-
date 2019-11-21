@@ -1,0 +1,123 @@
+/* 张老师的牙齿 */
+.neirong_area{
+    margin-top: 38px;
+}
+.title {
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title .author {
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+.detail-list p {
+    margin: 20px 10px 10px 10px;
+    line-height: 24px;
+    font-size: 14px;
+    text-indent: 2em;
+}
+
+.detail-list .trans {
+    border: 1px solid;
+    border-image: -webkit-linear-gradient(#c8c8c8, white);
+    border-image: -moz-linear-gradient(#c8c8c8, white);
+    border-image: linear-gradient(#c8c8c8, white) 10 10;
+}
+
+.detail-list .image {
+    margin: 30px auto;
+    width: 70%;
+}
+
+.detail-list .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.detail-list .button {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto 20px auto;
+    margin-top: 100px;
+}
+
+.detail-list .button .sub-btn,.detail-list .button .des-btn {
+    text-align: center;
+    display: inline-block;
+    padding: 5px 10px;
+    white-space: nowrap;
+}
+
+/* 最新发布 */
+.new-list {
+    margin-left: 30px;
+}
+
+.new-list .com-title {
+    border-bottom: 1px solid #c8c8c8;
+    padding-left: 6px;
+    padding-bottom: 14px;
+}
+
+.new-list .new-con {
+    color: #646464;
+    margin-top: -10px;
+}
+
+.new-list .new-con .name-case {
+    padding-top: 14px;
+    border-bottom: 1px solid #c8c8c8;
+    padding-bottom: 14px;
+    display: flex;
+}
+.new-list .new-con .name-case span{
+    margin-right: 5px;
+}
+.new-list .new-con .name-case .name-case-content{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+.new-list .new-con .name-case,.new-list .new-con .name-case .name-case-content{
+    color: #646464;
+}
+.new-list .new-con .name-case:hover{
+    color: #009794;
+}
+.new-list .new-con .name-case:hover .name-case-content{
+    color: #009794;
+}
+
+
+.new-list .rel-rem {
+    border-bottom: 1px solid #fff;
+    margin-top: 50px;
+}
+
+.new-list .rel-rem .image-case img {
+    padding: 6px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.new-list .rel-rem .image-case .detail {
+    font-weight: bold;
+    text-align: center;
+    padding: 6px;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.new-list .inline {
+    width: 90%;
+    margin: 50px auto 0 auto;
+}
+
+.new-list .inline img {
+    width: 100%;
+    height: 100%;
+}

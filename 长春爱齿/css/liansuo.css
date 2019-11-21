@@ -1,0 +1,45 @@
+
+
+/*banner*/
+.banner_box{
+    display: inline-block;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #c4c6c8;
+    background-color: #eceeee;
+}
+
+/*list*/
+.list{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.list_inner{
+    padding: 0 8px;
+}
+.list_item{
+    padding: 7px;
+}
+.list_item_inner_box{
+    padding: 8px;
+    border: 1px solid #d3d1d0;
+    border-radius: 8px;
+}
+.list_item_text{
+    display: none;
+}
+.list_item_inner{
+    background: #000;
+}
+
+.list_item_inner_box .iconsearch{
+    font-size: 30px;
+}
+.list_a:hover .list_item_text{
+    display: block;
+}
+.list_a:hover .list_img{
+    opacity: 0.6;
+}
+
+

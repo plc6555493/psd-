@@ -1,0 +1,95 @@
+
+.c009794{
+    color: #009794;
+}
+.b009794{
+    background-color: #009794;
+}
+.b4e4a4a{
+    background-color: #4e4a4a;
+}
+
+/*banner*/
+.banner_box{
+    display: inline-block;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #c4c6c8;
+    background-color: #eceeee;
+}
+/*tab*/
+.tab{
+    margin-top: 15px;
+}
+.tab_title_scroll{
+    overflow-x: scroll;
+    overflow: hidden;
+    overflow: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    width: 90%;
+}
+.tab_title_scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+.tab_title_box{
+    width: 92px;
+    height: 34px;
+    line-height: 34px;
+    cursor: pointer;
+    margin: 5px 10px;
+    display: inline-block;
+}
+.tab_title_active{
+    background: url(../images/tab_bg.png) no-repeat;
+    color: #009794 ;
+}
+.content_item{
+    padding: 0 15px;
+    margin-top: 30px;
+}
+
+.content_item > a p{
+    margin-bottom: 20px;
+}
+.content_item > a p .iconnext{
+    margin-right: 10px;
+}
+
+.image_group a{
+    display: inline-block;
+    padding: 0;
+}
+.image_group a img{
+    width: 100%;
+}
+.image_item{
+    padding: 5px;
+    margin: 10px 0;
+}
+.image_item{
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+.image_item a{
+    padding: 2px;
+}
+.image_mask{
+    background: #fff;
+    position: relative;
+}
+.iconsearch{
+    font-size: 30px;
+    display: none;
+}
+.image_active:hover{
+    opacity: 0.6;
+}
+.image_active:hover +.iconsearch{
+    display: block;
+}
+.image_mask:hover{
+    background: #000;
+}
+

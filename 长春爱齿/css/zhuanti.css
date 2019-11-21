@@ -1,0 +1,234 @@
+
+.c009794{
+    color: #009794;
+}
+.b009794{
+    background-color: #009794;
+}
+.b4e4a4a{
+    background-color: #4e4a4a;
+}
+/*header*/
+.header{
+    padding: 40px 0;
+    background: #dadada;
+}
+.header_inner{
+    margin: 0 auto;
+    padding: 0 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_right{
+    margin-right: 0;
+}
+.header .breadcrumb > li + li:before{
+    content: ' | ';
+    color: #666;
+}
+.header .breadcrumb .breadcrumb-item a{
+}
+.ACDC {
+    font-family: "BDZongYi-A001";
+    padding-right: 5px;
+    margin-top: 3px;
+}
+.breadcrumb{
+    background-color: transparent;
+}
+/*导航*/
+.navbar_area {
+    background: #dadada;
+    padding: 0;
+    padding-bottom: 25px;
+}
+.navbar_area .navbar-default{
+    background-color: transparent;
+}
+.navbar_area .form-group{
+    position: relative;
+}
+.navbar-collapse{
+    padding: 0;
+}
+.nav_left{
+    width: 79.9%;
+}
+.nav_right{
+    width: 20%;
+    height: 50px;
+    padding: 8px 5px;
+    text-align: center;
+    
+}
+
+
+.navbar_area .form-group .form-control{
+    /* border: none; */
+    width: 100%;
+    background-color: transparent;
+}
+.navbar_area .form-group .search_icon{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translate(0 ,-50%);
+}
+.navbar-default .navbar-form{
+    margin: 0;
+    border-color: #d2d2d2;
+}
+.search_icon{
+    width: 34px;
+    height: 34px;
+}
+.search_icon .iconsearch{
+    display: inline-block;
+    background-color: transparent;
+    color: #d1d1d1;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+}
+.nav_bg{
+    background-image: linear-gradient(180deg,#fafafa ,#ebebeb );
+    border-radius: 6px;
+    box-shadow: 1px 1px 2px #ccc;
+    border-top: 1px solid #d2d2d2;
+    border-left: 1px solid #d2d2d2;
+
+}
+.form_input{
+    background-image: linear-gradient(180deg,#ebebeb ,#fafafa );
+    height: 34px;
+    border-radius: 17px;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #d2d2d2!important;
+    box-shadow: 0px -2px 2px #ccc;
+}
+
+
+/*nav_route*/
+.nav_route{
+    background-color: #dadada;
+    margin-bottom: 14px;
+    padding: 8px 0;
+}
+.nav_route_inner{
+    padding-left: 25px;
+}
+.nav_route img{
+    margin-right: 10px;
+}
+.nav_route span{
+    padding: 2px;
+    color: #828282;
+}
+.next_arrow{
+    font-size: 10px!important;
+    color: #009794!important;
+}
+/*banner*/
+.banner_box{
+    display: inline-block;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #c4c6c8;
+    
+    background-color: #eceeee;
+}
+/*zhuanti*/
+.zhuanti{
+    margin: 15px 0;
+}
+
+.zhuanti_image_box{
+    border: 1px solid #ccc;
+    border-image:linear-gradient(to bottom,#ccc,#fff) 1 2;
+    padding: 5px;
+    margin-top: 16px;
+}
+.zhuanti_item{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.zhuanti_item p{
+    margin-top: 12px;
+}
+
+/* about recommend*/
+.about_recommend{
+    margin-top: 135px;
+}
+.recommend_title{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.recommend_title p{
+    color: #009794;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    border-radius: 5px 5px 0 0;
+}
+.recommend_item{
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.recommend_item img{
+   
+    width: 100%;
+}
+.recommend_item p{
+    padding: 12px 0;
+}
+/* long */
+.long{
+    height: 163px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+/*footer*/
+.footer{
+    background-image: url(../images/footer_bg.png);
+    background-repeat: no-repeat;
+    background-position: 100% auto;
+    background-color: #dadada;
+    margin-top: 60px;
+}
+.footer_inner{
+    padding: 0 25px;
+}
+.footer_item{
+    padding: 0;
+}
+.footer_item_title{
+    height: 43px;
+}
+.footer_item_title img{
+    margin-right: 7px;
+}
+.footer_item_content{
+    padding: 45px;
+}
+.footer_item_content p:not(:first-child){
+    padding-bottom: 10px;
+}
+.twoDemensionalCode_area{
+    margin-top: 10px;
+}
+.twoDemensionalCode_box{
+    display: inline-block;
+    
+}
+.twoDemensionalCode_box:first-child{
+    margin-right: 27px;
+}
+.copyRight{
+    
+}
