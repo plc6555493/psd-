@@ -1,0 +1,144 @@
+/* @media screen and ( max-width : 1200px) */
+@media screen and ( min-width : 1200px){
+    
+}
+/* @media screen and (min-width : 992px) and ( max-width : 1199px) */
+@media screen and (min-width : 992px) and ( max-width : 1199.99px){
+    .f20{
+        font-size: 18px;
+    }
+    .f18{
+        font-size: 16px;
+    }
+    .lh20{
+        line-height: 1.5;
+    }
+    .banner_text{
+        top: 50%;
+        left: 50%;
+        transform: translate(0, -50%);
+    }
+    .f42{
+        font-size: 36px;
+    }
+    .f24{
+        font-size: 22px;
+    }
+    .f30{
+        font-size: 18px;
+    }
+    .phone_icon{
+        width: 30px;
+        height: 30px;
+    }
+}
+/* @media screen and (min-width : 768px) and ( max-width : 991px) */
+@media screen and (min-width : 768px) and ( max-width : 991.99px){
+    .f14{
+        font-size: 12px;
+    }
+    .f20{
+        font-size: 16px;
+    }
+    .f18{
+        font-size: 14px;
+    }
+    .lh20{
+        line-height: 1.2;
+    }
+    .media-object{
+        width: 180px;
+    }
+    .classified_product_left{
+        padding:0 100px;
+    }
+    .banner_text{
+        top: 50%;
+        left: 40%;
+        transform: translate(0, -50%);
+    }
+    .f42{
+        font-size: 30px;
+    }
+    .f24{
+        font-size: 20px;
+    }
+    .banner_img{
+        height: 400px;
+    }
+    .f30{
+        font-size: 14px;
+    }
+    .phone_icon{
+        width: 24px;
+        height: 24px;
+    }
+}
+/* @media screen and ( max-width : 767px) */
+@media screen and ( max-width : 767.99px){
+    .f14{
+        font-size: 10px;
+    }
+    .f20{
+        font-size: 14px;
+    }
+    .f18{
+        font-size: 12px;
+    }
+    .info_title .media-heading{
+        font-size: 12px;
+    }
+    .media-object{
+        width: 120px;
+    }
+    #show_swiper .swiper-slide{
+        padding: 50px;
+    }
+    .classified_product_left{
+        padding:0 50px;
+    }
+    .info_content{
+        height: auto;
+    }
+    .news{
+        padding-right: 0px;
+    }
+    .block_xs{
+        display: block;
+    }
+    .banner_text{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .f42{
+        font-size: 24px;
+    }
+    .f24{
+        font-size: 18px;
+    }
+    .banner_img{
+        height: 300px;
+    }
+    .banner_text{
+        width: 100%;
+        text-align: center;
+    }
+    .f30{
+        font-size: 12px;
+    }
+    .phone_icon{
+        width: 18px;
+        height: 18px;
+    }
+    .dropdown_nav{
+        position: absolute;
+        left: 15px;
+        z-index: 999;
+        width: 100%;
+        background: #fff;
+    }
+    .header_right{
+        width: 100%;
+    }
+}
