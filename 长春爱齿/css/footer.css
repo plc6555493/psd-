@@ -7,8 +7,8 @@
 }
 /*footer*/
 .footer{
-    background-image: url(../images/footer_bg.png);
-    background-repeat: no-repeat;
+    background: url(../images/footer_bg.png);
+    background-repeat: repeat-x;
     background-position: 100% auto;
     background-color: #dadada;
     margin-top: 60px;
@@ -21,6 +21,14 @@
 }
 .footer_item_title{
     height: 43px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.footer_item_title p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 .footer_item_title img{
     margin-right: 7px;

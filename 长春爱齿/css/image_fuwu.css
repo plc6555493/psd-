@@ -34,7 +34,7 @@
   }
 
 .tab_title_box{
-    width: 92px;
+    padding: 0 15px;
     height: 34px;
     line-height: 34px;
     cursor: pointer;
@@ -43,6 +43,7 @@
 }
 .tab_title_active{
     background: url(../images/tab_bg.png) no-repeat;
+    background-size: 100% 100%;
     color: #009794 ;
 }
 .tab_content_area{

@@ -11,10 +11,12 @@
 }
 #banner .swiper_b_bg{
     background: url(../images/dot_bg.png) center bottom no-repeat;
-    background-size: auto 80px;
+    background-size: 100% 80px;
 }
 #banner .swiper-button-next, .swiper-button-prev{
-    top: 94%!important;
+    top: auto;
+    bottom: 40px;
+    transform: translate(0,50%);
 }
 #banner .swiper-button-next{
     background-image: url(../images/next.png)!important;
@@ -23,7 +25,8 @@
     background-image: url(../images/prev.png)!important;
 }
 #banner .swiper-container-horizontal>.swiper-pagination-bullets{
-    bottom: 25px;
+    bottom: 40px;
+    transform: translate(0,50%);
 }
 #banner .swiper-pagination-bullet{
     width: 14px;

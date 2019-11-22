@@ -32,9 +32,7 @@
         margin-top: 30px!important;
         height: 80px!important;
     }
-    #banner .swiper-button-next, .swiper-button-prev{
-        top: 93%!important;
-    }
+
 
 }
 /* @media screen and (min-width : 768px) and ( max-width : 991px) */
@@ -83,9 +81,7 @@
     .footer{
         margin-top: 20px;
     }
-    #banner .swiper-button-next, .swiper-button-prev{
-        top: 90%!important;
-    }
+
 
 
     .demand-con {
@@ -132,25 +128,28 @@
         font-size: 14px;
     }
     .f17{
-        font-size: 15px;
+        font-size: 14px;
     }
     .f18{
-        font-size: 16px;
+        font-size: 14px;
     }
     .f19{
-        font-size: 17px;
+        font-size: 14px;
     }
     .f20{
-        font-size: 18px;
+        font-size: 16px;
     }
     .f22{
-        font-size: 20px;
+        font-size: 16px;
     }
     .f24{
-        font-size: 22px;
+        font-size: 18px;
+    }
+    .f25{
+        font-size: 18px;
     }
     .f30{
-        font-size: 28px;
+        font-size: 22px;
     }
     .header{
         padding: 10px 0;
@@ -207,9 +206,7 @@
     .copyRight .f17{
         font-size: 12px;
     }
-    .f22{
-        font-size: 16px;
-    }
+
 
 
     .long{
@@ -221,7 +218,9 @@
         margin-bottom: 10px;
     }
     #banner .swiper-button-next, .swiper-button-prev{
-        top: 88%!important;
+        top: auto;
+        bottom: 25px;
+        transform: translate(0,50%);
     }
     #banner .swiper_b_bg {
         background-size: auto 50px;
@@ -233,7 +232,8 @@
         background-size: 70%;
     }
     #banner .swiper-container-horizontal>.swiper-pagination-bullets {
-        bottom: 11px;
+        bottom: 25px;
+        transform: translate(0,50%);
     }
     #banner .swiper-pagination-bullet {
         width: 10px;
@@ -305,6 +305,12 @@
     }
 }
 
-
+/* @media screen and ( max-width : 767.9px) */
+@media screen and ( max-width : 350px){
+    .header_inner {
+        width: 260px;
+        margin: 0;
+    }
+}
 /*++++++++++++++++++++++++++++++++++*/
 
