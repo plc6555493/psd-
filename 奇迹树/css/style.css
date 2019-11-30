@@ -486,7 +486,8 @@ input:focus{
     line-height: 34px;
 }
 .keywords_right{
-    width: 25%;
+    width: 15%;
+    min-width: 150px;
 }
 .keywords_right .form-control{
     border-color: #818181;
@@ -518,22 +519,22 @@ input:focus{
 
 .myVideo{
     width: 100%;
-    height: 3rem;
-    border-radius: 0.15rem 0.15rem 0 0.15rem;
+    height: 4rem;
+    border-radius: 0.21rem 0.21rem 0 0.21rem;
 }
 .video_face{
     position: absolute;
     top: 0;
     left: 0;
-    height: 3rem;
+    height: 4rem;
 }
 .show_top_right{
-    height: 3rem;
+    height: 4rem;
     min-height: 200px;
     padding-top: 0.3rem;
 }
 .show_img{
-    height: 3rem;
+    height: 4rem;
 }
 .ellipsis{
     overflow: hidden;
@@ -614,34 +615,33 @@ input:focus{
 .environment_content_left{
     padding: 0;
     padding-right: 5px;
-    height: 4.5rem;
+    height: 6rem;
 }
 .img_box1{
-    height: 2.85rem;
+    height: 3.8rem;
     padding: 0.5%;
-    margin-bottom: 0.1rem;
+    margin-bottom: 0.14rem;
     overflow: hidden;
 }
 .img_box2{
     display: inline-block;
     box-sizing: border-box;
     width: 35%;
-    padding: 0.5%;
-    height: 1.545rem;
+    height: 2.06rem;
     overflow: hidden;
 }
 .img_box3{
     display: inline-block;
     box-sizing: border-box;
     width: 65%;
-    height: 1.545rem;
+    height: 2.06rem;
     padding: 0.5%;
     overflow: hidden;
 }
 .environment_content_right{
     padding: 0;
     padding-left: 5px;
-    height: 4.5rem;
+    height: 6rem;
     overflow: hidden;
 }
 .img_box1 a,.img_box2 a,.img_box3 a,.environment_content_right a{

@@ -83,9 +83,9 @@
             </div>
         </div>
     </section>
-    <!-- search -->
+    <!-- keywords -->
     <section class="container common keywords">
-        <div class="mc basic clearfix">
+        <div class="mc  clearfix">
             <div class="fl keywords_left">
                 <span>热门搜索关键词：</span>
                 <a href="#">青岛儿童绘画</a>
@@ -101,15 +101,14 @@
 
         </div>
     </section>
-    <!-- keywords下面 -->
+    <!-- show -->
     <section class="show">
         <div class="container basic common">
             <div class="show_top clearfix">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 common show_top_left">
                     <div class="w1000 pr video_box">
                         <img id="show_video" class="w1000 video_face" src="images/video_face.png" alt="">
-                        <video class="myVideo" src="https://www.w3school.com.cn/i/movie.ogg" width="100%" height="100%"
-                            loop autoplay="autoplay" controls>
+                        <video class="myVideo" src="https://www.w3school.com.cn/i/movie.ogg" width="100%" height="100%" preload="auto" controls>
                             您的浏览器不支持
                         </video>
                     </div>
@@ -539,10 +538,10 @@
                 <div class=" footer_t_inner ">
                     <div class="footer_t_inner_l">
                         <div class="flex al_center footer_t_l">
-                            <img style="transform: scale(0.75);" src="images/gift.png" alt="">
+                            <img class="mr10" src="images/gift.png" alt="">
                             <div class="">
-                                <p class="f42 cfff ff">NEW <span class="cred">GIFTS</span></p>
-                                <P class="f18 cfff footer_t_l_p2">REGISTED GET GIFTS</P>
+                                <p class="f56 cfff ff">NEW <span class="cred">GIFTS</span></p>
+                                <P class="f24 cfff footer_t_l_p2">REGISTED GET GIFTS</P>
                                 <p class="f27 fwb cfff footer_t_l_p3">新入学儿童送<span class="cred">绘画豪礼</span></p>
                             </div>
                         </div>
@@ -551,12 +550,14 @@
                         <div class="flex di_column ju_around footer_t_r">
                             <p class="cfff ">所有优惠豪礼以报名入学时间为准，请务必知晓，入学大礼包先到先得！</p>
                             <p class="cfff">咨询热线：<span class="f20">0532-58802968</span> </p>
-                            <div class="flex ju_between">
-                                <div class="flex cfff">
-                                    <span style="width:42px;margin-right: 10px;">关&nbsp;&nbsp;&nbsp;注领好礼</span>
-                                    <img src="images/care_code.png" alt="">
+                            <div class="clearfix">
+                                <div style="float: left;">
+                                    <div class="flex cfff">
+                                        <span style="display: inline-block;width:48px;margin-right: 10px;">关&nbsp;&nbsp;&nbsp;注领好礼</span>
+                                        <img class="" style="width: 48px;" src="images/care_code.png" alt="">
+                                    </div>
                                 </div>
-                                <a class="consultation2" href="#">点击咨询</a>
+                                <a style="float: right;" class="consultation2" href="#">点击咨询</a>
                             </div>
                         </div>
                     </div>
@@ -712,7 +713,11 @@
                     },
                 });
             } else {
-                return null
+                var mySwiper1 = null;
+                var mySwiper2 = null;
+                var mySwiper3 = null;
+                var mySwiper4 = null;
+                var mySwiper5 = null;
             }
 
         }

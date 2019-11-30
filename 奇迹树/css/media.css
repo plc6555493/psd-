@@ -1,6 +1,12 @@
 /* @media screen and ( max-width : 1200px) */
 @media screen and ( min-width : 1200px){
-    
+    .container{
+        width: 1580px;
+        max-width: 96%;
+    }
+    .basic{
+        /* max-width: 1580px; */
+    }
 }
 /* @media screen and (min-width : 992px) and ( max-width : 1199px) */
 @media screen and (min-width : 992px) and ( max-width : 1199.99px){
@@ -35,28 +41,28 @@
 /* @media screen and (min-width : 768px) and ( max-width : 991px) */
 @media screen and (min-width : 768px) and ( max-width : 991.9px){
     .show_top_left{
-        height: 6rem;
+        height: 8rem;
     }
     .myVideo{
         width: 100%;
-        height: 6rem;
-        border-radius: 0.3rem;
+        height: 8rem;
+        border-radius: 0.42rem;
     }
     .video_face{
         position: absolute;
         top: 0;
         left: 0;
-        height: 6rem;
-        border-radius: 0.3rem;
+        height: 8rem;
+        border-radius: 0.42rem;
     }
     .show_top_right{
-        height: 3rem;
+        height: 4rem;
         padding-top: 0.3rem;
-        border-radius: 0.3rem;
+        border-radius: 0.42rem;
     }
     .show_img{
-        height: 6rem;
-        border-radius: 0.3rem;
+        height: 8rem;
+        border-radius: 0.42rem;
     }
     .f24{
         font-size: 20px;
@@ -139,25 +145,28 @@
     }
 
     .show_top_left{
-        height: 6rem;
+        height: 8rem;
     }
     .myVideo{
         width: 100%;
-        height: 6rem;
+        height: 8rem;
+        border-radius: 0.42rem;
     }
     .video_face{
         position: absolute;
         top: 0;
         left: 0;
-        height: 6rem;
-        border-radius: 0.21rem;
+        height: 8rem;
+        border-radius: 0.42rem;
     }
     .show_top_right{
-        height: 3rem;
+        height: 4rem;
         padding-top: 0.3rem;
     }
+
     .show_img{
-        height: 6rem;
+        height: 8rem;
+        border-radius: 0.42rem;
     }
 
     .explain_top{
@@ -172,7 +181,9 @@
         width: 100%;
         padding: 10px;
     }
-
+    .trends_b{
+        padding: 0 0.3rem;
+    }
     .footer_t_inner{
         flex-direction: column;
     }
