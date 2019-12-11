@@ -9,7 +9,7 @@
     }
 }
 /* @media screen and (min-width : 992px) and ( max-width : 1199px) */
-@media screen and (min-width : 992px) and ( max-width : 1199.99px){
+@media screen and (min-width : 992px) and ( max-width : 1199.9px){
     .f20{
         font-size: 18px;
     }
@@ -19,11 +19,7 @@
     .lh20{
         line-height: 1.5;
     }
-    .banner_text{
-        top: 50%;
-        left: 50%;
-        transform: translate(0, -50%);
-    }
+
     .f42{
         font-size: 36px;
     }
@@ -33,10 +29,14 @@
     .f30{
         font-size: 18px;
     }
-    .phone_icon{
-        width: 30px;
-        height: 30px;
+    .course_text{
+        width: 5.5rem;
+        height: 3.07rem;
+        padding: 0.3rem 0.5rem 0.1rem 0.3rem;
+        background: #fff;
+        box-sizing: border-box;
     }
+
 }
 /* @media screen and (min-width : 768px) and ( max-width : 991px) */
 @media screen and (min-width : 768px) and ( max-width : 991.9px){
@@ -91,7 +91,13 @@
     .f70{
         font-size: 42px;
     }
-
+    .course_text{
+        width: 5.5rem;
+        height: 3.07rem;
+        padding: 0.1rem 0.1rem 0.1rem 0.1rem;
+        background: #fff;
+        box-sizing: border-box;
+    }
 
     .footer_b_r_inner{
         width: 50%;
@@ -180,6 +186,13 @@
     .explain_top_middle{
         width: 100%;
         padding: 10px;
+    }
+    .course_text{
+        width: 5.5rem;
+        height: 3.07rem;
+        padding: 0.1rem 0.1rem 0.1rem 0.1rem;
+        background: #fff;
+        box-sizing: border-box;
     }
     .trends_b{
         padding: 0 0.3rem;

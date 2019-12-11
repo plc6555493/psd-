@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/SOURCEHANSANSCN-NORMAL.css" />
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/1.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" />
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <!-- header -->
+    <header class="yunu-header">
+        <div class="topbar hidden-xs">
+            <div class="container ">
+                <ul>
+                    <li><a href="javascript:;" onClick="AddFavorite(document.title,window.location)" class="a1">收藏本站</a>
+                    </li>
+                    <li><a href="" class="a2">联系我们</a></li>
+                    <li><a href="" class="a3">更多分站</a></li>
+                    <li class="sc"> <a href="javascript:;"></a>
+                        <form action="" method="post">
+                            <input type="text" name="key" placeholder="输入关键词...">
+                            <button>搜索</button>
+                        </form>
+                    </li>
+                </ul>
+                <span>欢迎光临北京市某某管业有限公司网站！</span>
+            </div>
+        </div>
+        <div class="container clearfix">
+            <div class="logo wow zoomIn"><a href="javascript:;" title=""><img src="images/logo.png" alt=""></a></div>
+            <div class="text wow fadeIn hidden-xs"><strong>15年专注不锈钢工程水管</strong>世界500强企业不锈钢饮用水管供应商</div>
+            <div class="tel hidden-xs">
+                <p>全国咨询热线：</p>
+                <strong>400-888-8888</strong>
+            </div>
+        </div>
+    </header>
+    <!-- nav -->
+    <section class="p-nav">
+        <nav class="container navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html?page=0">网站首页</a></li>
+                        <li><a href="index.html?page=1">产品中心</a></li>
+                        <li class="dropdown p-dropdown">
+                            <a href="javascript:;" class="dropdown-toggle">工程案例</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html?page=2">星级酒店</a></li>
+                                <li><a href="index.html?page=2">医院工程</a></li>
+                                <li><a href="index.html?page=2">学校工程</a></li>
+                                <li><a href="index.html?page=2">医院工程</a></li>
+                                <li><a href="index.html?page=2">医院工程</a></li>
+                                <li><a href="index.html?page=2">医院工程</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown p-dropdown">
+                            <a href="javascript:;" class="dropdown-toggle">新闻资讯</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html?page=3">星级酒店</a></li>
+                                <li><a href="index.html?page=3">医院工程</a></li>
+                                <li><a href="#">学校工程</a></li>
+                                <li><a href="#">医院工程</a></li>
+                                <li><a href="#">医院工程</a></li>
+                                <li><a href="#">医院工程</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="index.html?page=4">关于我们</a></li>
+                        <li><a href="index.html?page=5">联系我们</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </section>
+    <!-- banner -->
+    <section class="banner" id="banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="w1000" src="images/banner.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="w1000" src="images/banner.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- keywords -->
+    <section class=" keywords">
+        <div class="container clearfix">
+            <div class="fl keywords_left">
+                <span><strong>热门关键词：</strong> </span>
+                <a href="#">产品分类1</a>
+                <a href="#">产品分类2</a>
+                <a href="#">产品分类3</a>
+            </div>
+            <div class="fr keywords_right">
+                <form class="flex al_center input-group">
+                    <input type="text" class="form-control" placeholder="搜索关键词" aria-describedby="basic-addon2">
+                    <button class="search_icon"></button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- show -->
+    <section class="container show">
+        <div class="show_top clearfix">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12  show_top_left">
+                <div class="flex al_center show_title">
+                    <span class="f35 cfff fwb">01</span>
+                    <div>
+                        <p class="f30 color fwb">行业品牌</p>
+                        <p class="f30 c000 fwb">先进技术支持</p>
+                    </div>
+                </div>
+                <div class="show_content">
+                    <p>专业压铸设备生产厂商，集研制、开发、生产、销售</p>
+                    <p>在国内同类产品中具有相当高的知名度</p>
+                </div>
+                <div class="flex al_center show_title">
+                    <span class="f35 cfff fwb">02</span>
+                    <div>
+                        <p class="f30 color fwb">行业品牌</p>
+                        <p class="f30 c000 fwb">先进技术支持</p>
+                    </div>
+                </div>
+                <div class="show_content">
+                    <p>专业压铸设备生产厂商，集研制、开发、生产、销售</p>
+                    <p>在国内同类产品中具有相当高的知名度</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p0 show_top_right">
+                <img class="w1000" src="images/show1.png" alt="">
+            </div>
+        </div>
+        <div class="show_bottom clearfix">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p0 show_top_right">
+                <img class="w1000" src="images/show2.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12  show_top_left">
+                <div class="flex al_center show_title">
+                    <span class="f35 cfff fwb">03</span>
+                    <div>
+                        <p class="f30 color fwb">行业品牌</p>
+                        <p class="f30 c000 fwb">先进技术支持</p>
+                    </div>
+                </div>
+                <div class="show_content">
+                    <p>专业压铸设备生产厂商，集研制、开发、生产、销售</p>
+                    <p>在国内同类产品中具有相当高的知名度</p>
+                </div>
+                <div class="flex al_center show_title">
+                    <span class="f35 cfff fwb">04</span>
+                    <div>
+                        <p class="f30 color fwb">行业品牌</p>
+                        <p class="f30 c000 fwb">先进技术支持</p>
+                    </div>
+                </div>
+                <div class="show_content">
+                    <p>专业压铸设备生产厂商，集研制、开发、生产、销售</p>
+                    <p>在国内同类产品中具有相当高的知名度</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product center -->
+    <section class="product">
+        <div class="container">
+            <div class="section-title wow zoomIn animated">誉格压铸·<span class="color">产品中心</span>
+                <p>24年压铸行业品牌值得信赖</p>
+            </div>
+            <div class="yunu-way clearfix">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 p0 slide">
+                    <h4><a href="#">产品分类一</a></h4>
+                    <ul>
+                        <li><a href="#">- 三级小类一</a></li>
+                        <li><a href="#">- 三级小类二</a></li>
+                        <li><a href="#">- 三级小类三</a></li>
+                        <li><a href="#">- 三级小类四</a></li>
+                        <li><a href="#">- 三级小类五</a></li>
+                        <li><a href="#">- 三级小类六</a></li>
+                        <li><a href="#">- 三级小类七</a></li>
+                        <li><a href="#">- 三级小类八</a></li>
+                        <li><a href="#">- 三级小类九</a></li>
+                        <li><a href="#">- 三级小类十</a></li>
+                    </ul>
+                    <h4><a href="#">产品分类二</a></h4>
+                    <ul>
+                        <li><a href="http://170170.websitetemplate.cn/pro/pro2/1/">- 三级分类十一</a></li>
+                        <li><a href="http://170170.websitetemplate.cn/pro/pro2/2/">- 三级分类十二</a></li>
+                        <li><a href="http://170170.websitetemplate.cn/pro/pro2/3/">- 三级分类十三</a></li>
+                        <li><a href="http://170170.websitetemplate.cn/pro/pro2/4/">- 三级分类十四</a></li>
+                    </ul>
+                    <h4><a href="http://170170.websitetemplate.cn/pro/pro3/">产品分类三</a></h4>
+                    <ul>
+                        <li><a href="http://170170.websitetemplate.cn/pro/pro3/1/">- 三级分类十五</a></li>
+                        <li><a href="http://170170.websitetemplate.cn/pro/pro3/2/">- 三级分类十六</a></li>
+                        <li><a href="http://170170.websitetemplate.cn/pro/pro3/3/">- 三级分类十七</a></li>
+                        <li><a href="http://170170.websitetemplate.cn/pro/pro3/4/">- 三级分类十八</a></li>
+                    </ul>
+                    <div class="tel">技术咨询热线：<strong>18028784288</strong></div>
+                </div>
+                <ul class="col-lg-9 col-md-9 col-sm-12 col-xs-12 p0 list">
+                    <li>
+                        <div class="box">
+                            <div class="m tx_center"><img src="images/product1.png" alt="三级小类一">
+                            </div>
+                            <p>三级小类一</p>
+                            <div class="text">
+                                <h4>三级小类一</h4>
+                                <a href="http://170170.websitetemplate.cn/pro/pro1/1/206.html" title="产品应用案例">- 产品应用案例
+                                </a> <a href="http://170170.websitetemplate.cn/pro/pro1/1/165.html" title="产品应用案例">-
+                                    产品应用案例 </a> <a href="http://170170.websitetemplate.cn/pro/pro1/1/164.html"
+                                    title="产品应用案例">- 产品应用案例 </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <div class="m tx_center"><img src="images/product1.png" alt="三级小类二">
+                            </div>
+                            <p>三级小类二</p>
+                            <div class="text">
+                                <h4>三级小类二</h4>
+                                <a href="http://170170.websitetemplate.cn/pro/pro1/2/167.html" title="产品应用案例">- 产品应用案例
+                                </a> <a href="http://170170.websitetemplate.cn/pro/pro1/2/166.html" title="产品应用案例">-
+                                    产品应用案例 </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <div class="m tx_center"><img src="images/product1.png" alt="三级小类三">
+                            </div>
+                            <p>三级小类三</p>
+                            <div class="text">
+                                <h4>三级小类三</h4>
+                                <a href="http://170170.websitetemplate.cn/pro/pro1/3/169.html" title="产品应用案例">- 产品应用案例
+                                </a> <a href="http://170170.websitetemplate.cn/pro/pro1/3/168.html" title="产品应用案例">-
+                                    产品应用案例 </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <div class="m tx_center"><img src="images/product1.png" alt="三级小类四">
+                            </div>
+                            <p>三级小类四</p>
+                            <div class="text">
+                                <h4>三级小类四</h4>
+                                <a href="http://170170.websitetemplate.cn/pro/pro1/4/171.html" title="产品应用案例1">- 产品应用案例1
+                                </a> <a href="http://170170.websitetemplate.cn/pro/pro1/4/170.html" title="产品应用案例">-
+                                    产品应用案例 </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <div class="m tx_center"><img src="images/product1.png" alt="三级小类五">
+                            </div>
+                            <p>三级小类五</p>
+                            <div class="text">
+                                <h4>三级小类五</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <div class="m tx_center"><img src="images/product1.png" alt="三级小类六">
+                            </div>
+                            <p>三级小类六</p>
+                            <div class="text">
+                                <h4>三级小类六</h4>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- essential factor -->
+    <section class="factor">
+        <div class="container">
+            <div class="section-title wow zoomIn animated">好的压铸件·<span class="color">务必关注4大要素</span>
+                <p>连成誉格，教您选对好厂商</p>
+            </div>
+
+            <ul class="yunu-fea clearfix">
+                <li>
+                    <a href="javascript:;"> <span> <img src="images/factor1.png" alt="" class="a"> <img
+                                src="images/factor_active1.png" alt="" class="h">
+                        </span>
+                        <h4 class="f28">产品质量好不好</h4>
+                        <p>Is the quality good or not</p>
+                        <a href="" class="factor_btn">索取疑问解决方案</a>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;"> <span> <img src="images/factor2.png" alt="" class="a"> <img
+                                src="images/factor_active2.png" alt="" class="h">
+                        </span>
+                        <h4 class="f28">做过哪些压铸件领域</h4>
+                        <p>What forging parts have been made</p>
+                        <a href="" class="factor_btn">索取疑问解决方案</a>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;"> <span> <img src="images/factor3.png" alt="" class="a"> <img
+                                src="images/factor_active3.png" alt="" class="h">
+                        </span>
+                        <h4 class="f28">厂家实力强不强</h4>
+                        <p>strength of manufacturers is not strong</p>
+                        <a href="" class="factor_btn">索取疑问解决方案</a>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;"> <span> <img src="images/factor4.png" alt="" class="a"> <img
+                                src="images/factor_active4.png" alt="" class="h">
+                        </span>
+                        <h4 class="f28">供货速度快不快</h4>
+                        <p>We don't have enough stock</p>
+                        <a href="" class="factor_btn">索取疑问解决方案</a>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- pk -->
+    <section class="pk" style="display: none;">
+        <div class="yunu-section" style="padding: 0;">
+            <div class="container">
+                <div class="section-title wow zoomIn">采购好水管 · <span>关键看品质</span>
+                    <p>选对好厂商，省心省事更省钱</p>
+                </div>
+            </div>
+            <div class="yunu-pk">
+                <div class="container clearfix">
+                    <div class="tit clearfix"> <span style="color: #fff;">某某管业</span> <span
+                            style="color: #6b6b6b;">市场其他水管产品</span> </div>
+                    <dl>
+                        <dt class="img-center"><img src="/template/default/index/images/pk1.png" alt=""></dt>
+                        <dd>
+                            <h4>食品级材质 · 健康环保</h4>
+                            <p>采用国标304、316L原产一级钢带，符合食品卫生级，安全无毒，无超标释出物</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <h4>劣质原料 . 危害健康</h4>
+                            <p>自行改扎的二级原料，硬度偏硬，表面易氧化发黑，金属物超标长期使用会影响人体健康</p>
+                        </dd>
+                        <dt class="img-center"><img src="/template/default/index/images/pk2.png" alt=""></dt>
+                    </dl>
+                    <dl>
+                        <dt class="img-center"><img src="/template/default/index/images/pk3.png" alt=""></dt>
+                        <dd>
+                            <h4>德国技术 · 双卡压连接</h4>
+                            <p>不锈钢卡压连接水管在德国已普及过百年历史，双边卡压成型，经久耐用，终生免维护</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <h4>厚度不达标 .使用寿命短</h4>
+                            <p>厚度低于国标厚度，外径负差大，产品压接时密闭性差，工程验收难以通过</p>
+                        </dd>
+                        <dt class="img-center"><img src="/template/default/index/images/pk4.png" alt=""></dt>
+                    </dl>
+                    <dl>
+                        <dt class="img-center"><img src="/template/default/index/images/pk5.png" alt=""></dt>
+                        <dd>
+                            <h4>光亮固熔 · 超声波清洗</h4>
+                            <p>经固熔处理，消除生产中的硬化和内应力，还原不锈钢本来晶间组织，提高抗腐蚀性，经超声波清洗和表面研磨，内外壁洁净无污，无残留</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <h4>工艺欠佳 . 达不到食品级</h4>
+                            <p>不固熔的管件硬度偏硬，压接时容易内应力引起焊缝裂纹，表面油绩残留，输送水导致二次污染</p>
+                        </dd>
+                        <dt class="img-center"><img src="/template/default/index/images/pk6.png" alt=""></dt>
+                    </dl>
+                    <dl>
+                        <dt class="img-center"><img src="/template/default/index/images/pk7.png" alt=""></dt>
+                        <dd>
+                            <h4>气密测试 · 保险承保</h4>
+                            <p>所有产品经100%涡流探伤和气密性检测，保证出厂合格率100%，产品责任由保险公司承保，使用更加放心</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <h4>气密性差 . 不耐压 </h4>
+                            <p>焊缝沙眼，焊接未完全融透，长期负压工作容易爆裂，产生漏水</p>
+                        </dd>
+                        <dt class="img-center"><img src="/template/default/index/images/pk8.png" alt=""></dt>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product case -->
+    <section class="case" id="case">
+        <div class="container">
+            <div class="section-title wow zoomIn">采购压铸件·<span class="color">产品案例</span>
+                <p>每一个客户都是在为誉格压铸代言</p>
+            </div>
+            <ul class="yunu-anli-tit clearfix">
+                <li> <a href="#"> <i class="i1"></i>
+                        <p>星级酒店 <small>Star Hotel</small></p>
+                    </a> </li>
+                <li> <a href="#"> <i class="i2"></i>
+                        <p>医院工程 <small>Hospital Engineering</small></p>
+                    </a> </li>
+                <li> <a href="#"> <i class="i3"></i>
+                        <p>学校工程 <small>School Engineering</small></p>
+                    </a> </li>
+                <li> <a href="#"> <i class="i4"></i>
+                        <p>地产公司 <small>Real estate company</small></p>
+                    </a> </li>
+                <li> <a href="#"> <i class="i5"></i>
+                        <p>知名企业 <small>Well-known enterprises</small></p>
+                    </a> </li>
+                <li> <a href="#"> <i class="i6"></i>
+                        <p>其他重点工程<small>Other key projects</small></p>
+                    </a> </li>
+                <li> <a href="#"> <i class="i7"></i>
+                        <p>更多案例<small>More cases</small></p>
+                    </a> </li>
+            </ul>
+            <div class="pr">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="w1000" src="images/case.png" alt="">
+                            <p class="f26 c000 tx_center">CNC车间</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="w1000" src="images/case.png" alt="">
+                            <p class="f26 c000 tx_center">CNC车间</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="w1000" src="images/case.png" alt="">
+                            <p class="f26 c000 tx_center">CNC车间</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="w1000" src="images/case.png" alt="">
+                            <p class="f26 c000 tx_center">CNC车间</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="prev"></div>
+                <div class="next"></div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- why choose us -->
+    <section class="why">
+        <div class="container">
+            <div class="section-title wow zoomIn">为什么选择<span class="color">我们</span>
+                <p>品质好管，供你所需，采购无忧</p>
+            </div>
+            <ul class="yunu-ys clearfix">
+                <li>
+                    <dl>
+                        <dt class="flex al_center ff">
+                            <span class="f42 color fwb" style="margin-right: 20px;"><i>01</i> </span>
+                            <div>
+                                <p class="f35 color fwb">品牌<span class="c000">实力</span> </p>
+                                <p class="f20 c000">BRAND STRENGTH</p>
+                            </div>
+                        </dt>
+                        <dd>
+                            <p>集生产、研发、销售于一体的现代化企业；坐拥25年以上行业技术和生产经验；拥有完整、科学的质量管理体系和完善的检测设备</p>
+                            <div class="img-center">
+                                <img src="images/why.png" class="cover" alt="">
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt class="flex al_center ff">
+                            <span class="f42 color fwb" style="margin-right: 20px;"><i>02</i> </span>
+                            <div>
+                                <div>
+                                    <p class="f35 color fwb">品牌<span class="c000">实力</span> </p>
+                                    <p class="f20 c000">BRAND STRENGTH</p>
+                                </div>
+                        </dt>
+                        <dd>
+                            <p>集生产、研发、销售于一体的现代化企业；坐拥25年以上行业技术和生产经验；拥有完整、科学的质量管理体系和完善的检测设备</p>
+                            <div class="img-center">
+                                <img src="images/why.png" class="cover" alt="">
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt class="flex al_center ff">
+                            <span class="f42 color fwb" style="margin-right: 20px;"><i>03</i> </span>
+                            <div>
+                                <div>
+                                    <p class="f35 color fwb">品牌<span class="c000">实力</span> </p>
+                                    <p class="f20 c000">BRAND STRENGTH</p>
+                                </div>
+                        </dt>
+                        <dd>
+                            <p>集生产、研发、销售于一体的现代化企业；坐拥25年以上行业技术和生产经验；拥有完整、科学的质量管理体系和完善的检测设备</p>
+                            <div class="img-center">
+                                <img src="images/why.png" class="cover" alt="">
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- three main service -->
+    <section class="service">
+        <div class="container">
+            <div class="section-title wow zoomIn "> <span class="color">「三大服务」</span> <span>夯筑诚信口碑</span>
+                <p>品质好管，供你所需，采购无忧</p>
+            </div>
+            <div class="clearfix">
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 tx_center ">
+                    <img class="w1000" src="images/service.png" alt="">
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 yunu-fw">
+                    <dl>
+                        <dt>售前服务</dt>
+                        <dd>免费提供叉车设备选型<br>
+                            智能仓储搬运解决方案设计</dd>
+                    </dl>
+                    <dl>
+                        <dt>售中服务</dt>
+                        <dd>叉车设备进场安装及调试<br>
+                            叉车设备操作与日常保养培训</dd>
+                    </dl>
+                    <dl>
+                        <dt>售后服务</dt>
+                        <dd>一年质保、提供定期上门保养<br>
+                            技术团队协同老旧设备的智能化升级</dd>
+                    </dl>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- diy process -->
+    <section class="diy">
+        <div class="container">
+            <div class="section-title wow zoomIn">誉格压铸·<span class="color">定制流程</span>
+                <p>一站式服务，省时省力省心</p>
+            </div>
+            <ul class="yunu-cess clearfix">
+                <li> <i><img src="images/cess_ic1.png" alt=""></i> <strong>勘测现场</strong>
+                </li>
+                <li> <i><img src="images/cess_ic2.png" alt=""></i> <strong>解决方案</strong>
+                </li>
+                <li> <i><img src="images/cess_ic3.png" alt=""></i> <strong>签订合同</strong>
+                </li>
+                <li> <i><img src="images/cess_ic4.png" alt=""></i> <strong>工程施工</strong>
+                </li>
+                <li> <i><img src="images/cess_ic5.png" alt=""></i> <strong>工程检测</strong>
+                </li>
+                <li> <i><img src="images/cess_ic6.png" alt=""></i> <strong>客户验收</strong>
+                </li>
+                <li> <i><img src="images/cess_ic7.png" alt=""></i> <strong>售后维护</strong>
+                </li>
+            </ul>
+            <form action="" id="personal_info" method="post">
+                <div class="personal_info">
+                    <div>
+                        <span class="f18">姓名</span>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="personal_info">
+                    <div>
+                        <span class="f18">手机</span>
+                        <input type="number">
+                    </div>
+
+                </div>
+                <div class="personal_info">
+                    <div>
+                        <span class="f18">邮箱</span>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="message_textarea">
+                    <p class="f18">留言信息</p>
+                    <textarea name="message" id="message" form="personal_info" rows="3"></textarea>
+                </div>
+            </form>
+            <div class="yunu-cess-tel">
+                <p> TEL <strong>400-9928-908 <span>/</span> 18028784288</strong> </p>
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+
+    $(document).ready(function () {
+        //header搜索栏
+        $('.yunu-header .topbar li.sc a').mouseover(function () {
+            $('.yunu-header .topbar li.sc form').show()
+        })
+        $('.yunu-header .topbar li.sc a').mouseout(function () {
+            $('.yunu-header .topbar li.sc form').hide()
+        })
+        $('.yunu-header .topbar li.sc form').mouseover(function () {
+            $('.yunu-header .topbar li.sc form').show()
+        })
+        $('.yunu-header .topbar li.sc form').mouseout(function () {
+            $('.yunu-header .topbar li.sc form').hide()
+        })
+        //nav active
+        var page = GetQueryString('page') || 0;
+        var active = $('.p-nav .navbar-nav > li');
+        function GetQueryString(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+            var r = window.location.search.substr(1).match(reg); //获取url中"?"符后的字符串并正则匹配
+            var context = "";
+            if (r != null)
+                context = r[2];
+            reg = null;
+            r = null;
+            return context == null || context == "" || context == "undefined" ? "" : context;
+        };
+        page = parseInt(page);
+        $('.p-nav .navbar-nav > li').removeClass('active');
+        $(active[page]).addClass('active');
+
+
+        /*++++++++++++++++++++++++++++++++++++*/
+
+        // swiper start
+        var slidesPerView = null;
+        //获取窗口宽度
+        function getWidth() {
+            let clientWidth = document.body.clientWidth;
+            setSlidesPerView(clientWidth)
+        }
+        //判断slidesPerView个数
+        function setSlidesPerView(clientWidth) {
+            swiper(0);
+            if (clientWidth >= 1200) {
+                slidesPerView = 3;
+            }
+            else if (clientWidth >= 992 && clientWidth < 1200) {
+                slidesPerView = 3;
+            }
+            else if (clientWidth >= 768 && clientWidth < 992) {
+                slidesPerView = 2;
+            }
+            else {
+                slidesPerView = 1;
+            }
+            swiper(1);
+        }
+        //声明swiper
+        function swiper(a) {
+            if (a == 1) {
+                var mySwiper1 = new Swiper('#banner .swiper-container', {
+                    loop: true,
+                    autoplay: true,
+                });
+                var mySwiper2 = new Swiper('#case .swiper-container', {
+                    loop: true,
+                    autoplay: true,
+                    slidesPerView: slidesPerView,
+                    spaceBetween: 30,
+                    navigation: {
+                        nextEl: '.next',
+                        prevEl: '.prev',
+                    },
+                });
+                var mySwiper3 = new Swiper('#activity .swiper-container', {
+                    loop: true,
+                    autoplay: true,
+                    slidesPerView: slidesPerView,
+                    slidesPerColumn: 2,
+                    spaceBetween: 30,
+                });
+                var mySwiper4 = new Swiper('#aaa .swiper-container', {
+                    loop: true,
+                    autoplay: true,
+                    slidesPerView: slidesPerView,
+                    spaceBetween: 30,
+                });
+                var mySwiper5 = new Swiper('#honor .swiper-container', {
+                    loop: true,
+                    autoplay: true,
+                    slidesPerView: slidesPerView,
+                    spaceBetween: 30,
+                    navigation: {
+                        nextEl: '.next',
+                        prevEl: '.prev',
+                    },
+                });
+                var swiper6 = new Swiper('#course_text .swiper-container', {
+                    direction: 'vertical',
+                    slidesPerView: 'auto',
+                    freeMode: true,
+                    scrollbar: {
+                        el: '.swiper-scrollbar',
+                    },
+                    mousewheel: true,
+                });
+            } else {
+                var mySwiper1 = null;
+                var mySwiper2 = null;
+                var mySwiper3 = null;
+                var mySwiper4 = null;
+                var mySwiper5 = null;
+                var mySwiper6 = null;
+            }
+
+        }
+
+        getWidth();
+        window.onresize = function () {
+
+        };
+
+        // swiper end
+    })
+</script>
+
+</html>

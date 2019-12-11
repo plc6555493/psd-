@@ -317,6 +317,9 @@ input:focus{
 .green{
     color: #54c8e3;
 }
+.c000{
+    color: #000;
+}
 .cfff{
     color: #fff;
 }
@@ -569,6 +572,27 @@ input:focus{
 .course .next{
     right: 0.1rem;
     transform: rotate(180deg);
+}
+.banner_box{
+    display: block;
+}
+.course_text{
+    width: 5.5rem;
+    height: 3.07rem;
+    padding: 0.45rem 1.23rem 0.3rem 0.5rem;
+    background: #fff;
+    box-sizing: border-box;
+    top: 50%;
+    right: 1.77rem;
+    transform: translate(0 ,-50%);
+    overflow: hidden;
+}
+.course_text_inner{
+}
+.course_text > div p:nth-child(2){
+    border-bottom: 0.02rem solid #000;
+    padding-bottom: 0.05rem;
+    margin-bottom: 0.05rem;
 }
 /*explain*/
 .explain{
