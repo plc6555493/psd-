@@ -1,8 +1,26 @@
-/* @media screen and ( max-width : 1200px) */
+/* @media screen and ( min-width : 1200px) */
 @media screen and ( min-width : 1200px){
     .container{
         width: 1285px;
         max-width: 100%;
+    }
+    .container2{
+        width: 1160px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+}
+/* @media screen and ( max-width : 1200px) */
+@media screen and ( max-width : 1200px){
+    .container{
+        width: 1285px;
+        max-width: 96%;
+    }
+    .container2{
+        width: 1160px;
+        max-width: 96%;
+        margin: 0 auto;
     }
 
 }
@@ -59,7 +77,35 @@
     .f70{
         font-size: 42px;
     }
-
+    .projects{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .evaluation{
+        flex-direction: column;
+    }
+    .evaluation_item{width: 100%!important;}
+    .evaluation_item:not(:last-child){
+        margin-right: 0%;
+    }
+    .evaluation_item >div{
+        border-radius: 0px;
+    }
+    .consultation_inner >div {
+        padding: 0 5px;
+    }
+    .consultation_inner >div:nth-child(2) > div > div:first-child {
+        padding: 40px 30px;
+    }
+    .service_inner >div {
+        padding: 0 5px;
+    }
+    .service_inner > div:last-child > div{
+        padding: 0 10px;
+    }
+    .news_item a img {
+        width: 38%;
+    }
 }
 /* @media screen and ( max-width : 767px) */
 @media screen and ( max-width : 767.9px){
@@ -121,6 +167,10 @@
     .tab_t_item {
         padding: 10px;
     }
+    .projects{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     .projects_item {
         padding: 15px;
     }
@@ -155,6 +205,7 @@
         background-size: auto 100%;
         padding: 30px 0;
     }
+    .service_inner > div:last-child > div{padding: 0 45px;}
     .news_item a img{width: 35%;}
     .footer_item:first-child{
         margin-right: 10px;

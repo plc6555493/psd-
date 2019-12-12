@@ -470,6 +470,7 @@ input:focus{
 }
 .header_t_r > div{
     margin-right: 15px;
+    position: relative;
 }
 .header_t_r > div:last-child a{
     color: #999;
@@ -491,6 +492,17 @@ input:focus{
 .header_m_r span{
     color: #5eb7ea;
 }
+.header_t_r > div:hover .wx_code{
+    display: block;
+}
+.wx_code{
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: none;
+}
+.wx_code p{color: #007fff;}
 .navbar{
     min-height: 30px;
     margin-bottom: 0;
@@ -498,7 +510,9 @@ input:focus{
 .navbar-default{
     background: #3770ad;
     border-radius:0!important;
+    border-color: transparent;
 }
+
 .navbar-default .navbar-nav>li>a{
     color: #fff;
 }
@@ -509,7 +523,7 @@ input:focus{
     display: block;
 }
 .nav>li>a{
-    padding: 5px 25px;
+    padding: 10px 25px;
 }
 .navbar-collapse.nav_center{
     display: flex!important;
@@ -565,8 +579,12 @@ input:focus{
 .tab_b_inner > p:nth-child(2){margin-bottom: 40px;}
 .tab_b_inner > p:nth-child(3){margin-bottom: 20px;}
 .tab_b_inner .evaluation_title{margin-bottom: 40px;}
+.projects{
+    margin-left: -20px;
+    margin-right: -20px;
+}
 .projects_item{
-    padding: 25px 50px;
+    padding: 25px 20px;
 }
 .projects_item a{
     padding: 25px 0px;
@@ -594,10 +612,11 @@ input:focus{
     width: 38%;
 }
 .evaluation_item:not(:last-child){
-    margin-right: 2%;
+    margin-right: 3%;
 }
 .evaluation_item >div{
     padding: 20px 30px;
+    height: 150px;
     border-radius: 0 0 8px 8px;
     background: #c7e4fa;
 }
@@ -627,9 +646,10 @@ input:focus{
 .consultation_inner >div{height: 388px;padding: 0 30px;}
 .consultation_inner >div:first-child img{margin-bottom: 25px;}
 .consultation_inner >div:first-child p.consultation_blue{margin-bottom: 40px;}
-.consultation_inner >div:nth-child(2) div{background: #02005f;padding: 40px 50px;}
-.consultation_inner >div:nth-child(2) div p:first-child{margin-bottom: 30px;}
-.consultation_inner >div:nth-child(2) div a{
+.consultation_inner >div:not(:first-child) > div > div:first-child{padding: 40px 50px;}
+.consultation_inner >div:not(:first-child) > div > div:last-child{background: #02005f;padding: 40px 50px;}
+.consultation_inner >div:not(:first-child) > div > div p:first-child{margin-bottom: 30px;}
+.consultation_inner >div:not(:first-child) > div > div a{
     display: block; 
     border-bottom: 1px solid #fff;
     line-height: 3;
@@ -638,12 +658,40 @@ input:focus{
     overflow: hidden;
     white-space: nowrap;
 }
-.consultation_inner >div:nth-child(3) div{
+.consultation_inner >div:nth-child(3) > div > div:first-child{
     background: url(../images/consultation_bg.png) no-repeat ;
     background-size: 100% 100%;
     padding: 40px 30px;
 }
 .consultation_inner >div:nth-child(3) div p{margin-bottom: 30px;}
+.consultation_inner >div:not(:first-child) div img{width: 80%;}
+.open_class{
+    background: url(../images/consultation_bg3.png) no-repeat;
+    background-size: 100% 100%;
+}
+.open_class_box{
+    overflow: hidden;
+    transform-style: preserve-3d;
+    -webkit-perspective: 700;
+     -moz-perspective: 700;
+    -ms-perspective: 700;
+     perspective: 700;
+}
+.open_class,.open_class_h{
+    transition: 1000ms all;
+}
+.open_class_h{
+    transform: rotateX(-90deg);
+}
+.open_class_box:hover .open_class_h{
+    transform: translateY(-100%) rotateX(0deg);
+    transform-origin: center top;
+}
+.open_class_box:hover .open_class{
+    transform: translateY(-100%) rotateX(90deg);
+    transform-origin: center bottom;
+}
+
 
 /* service */
 .service{
@@ -677,17 +725,17 @@ input:focus{
 .custom_inner > p:first-child,.custom_inner > p:nth-child(2){color: #aaa;}
 .custom_inner > p:nth-child(2){margin-bottom: 40px;}
 .custom_blue{color: #379bdd;}
-.custom_img{border-radius: 50%;overflow: hidden;}
-.custom_item{padding: 10px 40px;}
-.custom_item p{color:#7f878c;padding: 10px 0;min-height: 42px;}
+.custom_img{border-radius: 50%;overflow: hidden;max-width: 160px;margin: 0 auto;}
+.custom_item{padding: 10px 15px;}
+.custom_item p{color:#7f878c;padding: 7px 0;min-height: 42px;}
 .custom_name{color:#0f2835}
 .custom_item p:last-child span{color:#007fff}
 /*news*/
-.news{background: #f6f6f6;padding: 90px 0;}
+.news{background: #f6f6f6;padding: 30px 0 90px;}
 .news_inner > p:first-child,.news_inner > p:nth-child(2){color: #aaa;}
 .news_inner > p:nth-child(2){margin-bottom: 40px;}
 .custom_blue{color: #379bdd;}
-.news_item{height: 100px;margin: 10px 0;}
+.news_item{height: 100px;margin: 20px 0;}
 .news_item a img{width: 25%;}
 .news_item > a > div{
     width: 75%;
@@ -722,7 +770,6 @@ input:focus{
 .footer_item a{
     display: block;
     padding: 10px;
-    text-align: center;
 }
 .footer > p{
     padding: 30px 0;
