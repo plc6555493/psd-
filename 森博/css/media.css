@@ -1,0 +1,307 @@
+/* @media screen and ( max-width : 1200px) */
+@media screen and ( min-width : 1200px){
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .container-right{
+        max-width: 1550px;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .container-1390{
+        max-width: 1390px;
+        margin: 0 auto;
+    }
+
+}
+/* @media screen and (min-width : 992px) and ( max-width : 1199px) */
+@media screen and (min-width : 992px) and ( max-width : 1199.9px){
+    .f20{
+        font-size: 18px;
+    }
+    .f18{
+        font-size: 16px;
+    }
+    .lh20{
+        line-height: 1.5;
+    }
+
+    .f42{
+        font-size: 36px;
+    }
+    .f24{
+        font-size: 22px;
+    }
+    .f30{
+        font-size: 18px;
+    }
+
+
+}
+/* @media screen and (min-width : 768px) and ( max-width : 991px) */
+@media screen and (min-width : 768px) and ( max-width : 991.9px){
+
+    .f24{
+        font-size: 20px;
+    }
+    .f27{
+        font-size: 14px;
+    }
+    .f30{
+        font-size: 20px;
+    }
+    .f32{
+        font-size: 24px;
+    }
+    .f35{
+        font-size: 22px;
+    }
+    .f36{
+        font-size: 26px;
+    }
+    .f42{
+        font-size: 30px;
+    }
+    .f45{
+        font-size: 30px;
+    }
+    .f53{
+        font-size: 30px;
+    }
+    .f56{
+        font-size: 32px;
+    }
+    .f70{
+        font-size: 42px;
+    }
+    .container-right{
+        padding: 0 15px;
+    }
+    .container{
+        padding: 0 15px;
+    }
+    .show-top-r{
+        margin-left: 0;
+        width: 100%;
+    }
+    .product-show{
+        padding-top: 50px;
+        padding-bottom: 66px;
+    }
+    .application-area{
+        padding-top: 50px;
+    }
+    .main-advantage-left{
+        padding: 10px;
+        height: 400px;
+    }
+    .main-advantage-right{
+        height: 400px;
+        display: flex;
+        align-items: center;
+    }
+    .adv-name{
+        width: 100%;
+    }
+    .adv{
+        margin-top: 20px;
+    }
+    .adv-l{
+        width: 30%;
+    }
+    .adv-r{
+        width: 70%;
+    }
+    .news{
+        padding-bottom: 100px;
+    }
+    .news-left-box,.news-right-box{
+        padding: 0;
+    }
+    .news-right{
+        padding: 30px;
+        height: auto;
+    }
+    .about-us-right,.about-us-left{
+        height: auto;
+    }
+    .about-us-left{
+        padding: 20px;
+    }
+    .logo-foot{
+        width: 20%;
+    }
+    .qrcode{
+        padding-left: 25px;
+        border-left: 1px solid #ccc;
+    }
+}
+/* @media screen and ( max-width : 767px) */
+@media screen and ( max-width : 767.9px){
+    .f18{
+        font-size: 14px;
+    }
+    .f20{
+        font-size: 14px;
+    }
+    .f22{
+        font-size: 16px;
+    }
+    .f24{
+        font-size: 18px;
+    }
+    .f27{
+        font-size: 14px;
+    }
+    .f30{
+        font-size: 18px;
+    }
+    .f32{
+        font-size: 20px;
+    }
+    .f35{
+        font-size: 22px;
+    }
+    .f36{
+        font-size: 22px;
+    }
+    .f40{
+        font-size: 24px;
+    }
+    .f42{
+        font-size: 26px;
+    }
+    .f45{
+        font-size: 26px;
+    }
+    .f53{
+        font-size: 20px;
+    }
+    .f56{
+        font-size: 32px;
+    }
+    .f70{
+        font-size: 32px;
+    }
+    .container-right{
+        padding: 0 10px;
+    }
+    .container{
+        padding: 0 10px;
+    }
+    .logo-img{
+        width: 25%;
+        margin-top: 8px;
+        margin-right: 15px;
+        margin-bottom: 8px;
+    }
+    .keywords_left{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .keywords_right{
+        width: 100%;
+        margin-top: 10px;
+        padding: 0px 20px;
+    }
+    .show-top-l{
+        padding-left: 20px;
+    }
+    .show-top-r{
+        margin-left: 0;
+        width: 100%;
+        padding: 0 30px;
+    }
+    .product-title-box{
+        height: auto;
+        width: 100%;
+    }
+    .title-item{
+        padding: 10px ;
+    }
+    .product-show{
+        padding-top: 30px;
+        padding-bottom: 66px;
+    }
+    .application-area{
+        padding-top: 30px;
+    }
+    .main-advantage-left{
+        padding: 10px;
+        height: 400px;
+    }
+    .main-advantage-right{
+        height: 400px;
+        justify-content: center;
+        
+    }
+    .adv-name{
+        width: 100%;
+    }
+    .adv{
+        margin-top: 20px;
+    }
+    .adv-l{
+        width: 30%;
+    }
+    .adv-r{
+        width: 70%;
+    }
+    .news{
+        padding-bottom: 100px;
+    }
+    .news-left-box,.news-right-box{
+        padding: 0;
+    }
+    .news-right{
+        padding: 30px;
+        height: auto;
+    }
+    .news-tab p{
+        padding: 8px 24px;
+    }
+    .news-tab {
+        margin-top: 30px;
+    }
+    .about-us-right,.about-us-left{
+        height: auto;
+    }
+    .about-us-left{
+        padding: 20px;
+    }
+    .footer-info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-info > div:not(:first-child){
+        margin-top: 30px;
+    }
+    .mobile-nav{
+        padding: 0;
+    }
+    .nav-ul{
+        display: block;
+        overflow: hidden;
+        overflow-x: auto;
+        margin: 0 15px;
+        white-space: nowrap;
+    }
+    .nav-ul::-webkit-scrollbar{display: none;}
+    .nav-li{
+        display: inline-block;
+        margin: 0 15px;
+    }
+    .logo-foot{
+        width: 50%;
+    }
+    .qrcode{
+        padding-left: 0px;
+        border-left: none;
+    }
+    .copyRight{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
