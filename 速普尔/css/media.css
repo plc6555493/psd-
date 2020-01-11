@@ -1,0 +1,194 @@
+/* @media screen and ( max-width : 1200px) */
+@media screen and ( min-width : 1200px){
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+}
+/* @media screen and ( max-width : 768px) */
+@media screen and ( min-width : 768px){
+    .navbar-default .navbar-nav > .dropdown:hover .dropdown-menu{
+        display: block;
+    }
+}
+/* @media screen and (min-width : 992px) and ( max-width : 1199px) */
+@media screen and (min-width : 992px) and ( max-width : 1199.9px){
+    .f20{
+        font-size: 18px;
+    }
+    .f18{
+        font-size: 16px;
+    }
+    .lh20{
+        line-height: 1.5;
+    }
+    .f32{
+        font-size: 28px;
+    }
+
+    .f42{
+        font-size: 36px;
+    }
+    .f24{
+        font-size: 22px;
+    }
+    .f30{
+        font-size: 18px;
+    }
+
+
+}
+/* @media screen and (min-width : 768px) and ( max-width : 991px) */
+@media screen and (min-width : 768px) and ( max-width : 991.9px){
+
+    .f24{
+        font-size: 20px;
+    }
+    .f27{
+        font-size: 14px;
+    }
+    .f30{
+        font-size: 20px;
+    }
+    .f32{
+        font-size: 24px;
+    }
+    .f35{
+        font-size: 22px;
+    }
+    .f36{
+        font-size: 26px;
+    }
+    .f42{
+        font-size: 30px;
+    }
+    .f53{
+        font-size: 30px;
+    }
+    .f56{
+        font-size: 32px;
+    }
+    .f70{
+        font-size: 42px;
+    }
+    .question-area p{
+        width: 84px;
+        font-size: 12px;
+    }
+    
+}
+/* @media screen and ( max-width : 767px) */
+@media screen and ( max-width : 767.9px){
+    .f18{
+        font-size: 14px;
+    }
+    .f20{
+        font-size: 14px;
+    }
+    .f24{
+        font-size: 18px;
+    }
+    .f27{
+        font-size: 14px;
+    }
+    .f30{
+        font-size: 18px;
+    }
+    .f32{
+        font-size: 20px;
+    }
+    .f35{
+        font-size: 22px;
+    }
+    .f36{
+        font-size: 22px;
+    }
+    .f42{
+        font-size: 26px;
+    }
+    .f53{
+        font-size: 20px;
+    }
+    .f56{
+        font-size: 32px;
+    }
+    .f70{
+        font-size: 32px;
+    }
+    .head-r{
+        width: 100%;
+        height: auto;
+        margin-top: -50px;
+    }
+    .header{
+        background: none;
+        height: auto;
+    }
+    .head-r-b{
+        position: unset;
+    }
+    .head-r-b .navbar-default .navbar-nav > li > a{
+        color: #333;
+    }
+    .select::after{
+        display: none;
+    }
+    .navbar-nav > li > a{
+        padding: 10px 15px;
+    }
+    .keywords_left{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .keywords_right{
+        width: 100%;
+        margin-top: 10px;
+        padding: 0px 20px;
+    }
+    .adv-item{
+        width: 50%;
+    }
+    .adv-r-t{
+        
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
+    .adv-r{
+        margin-top: 20px;
+    }
+    .top-pic{
+        background: #163a86;
+        height: auto;
+        padding: 30px 10px;
+    }
+    .top-pic-l{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .top-pic-r{
+        width: 100%;
+    }
+    .question-pc{
+        display: none;
+    }
+    .question-mobile{
+        display: block;
+        margin-top: 30px;
+    }
+    .bottom-pic{
+        background: url(../images/bottom_pic.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        margin-top: 50px;
+    }
+    .bottom-pic p{
+        width: 60%;
+        text-align: left;
+    }
+    .partners-item{
+        width: 50%;
+    }
+}
