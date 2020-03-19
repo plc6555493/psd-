@@ -15,49 +15,19 @@
 }
 /* @media screen and (min-width : 992px) and ( max-width : 1199px) */
 @media screen and (min-width : 992px) and ( max-width : 1199.9px){
-    .f20{
-        font-size: 18px;
+    
+    .adv-line-r,.adv-line-l{display: none;}
+    .nav > li > a {
+        position: relative;
+        display: block;
+        padding: 10px 5px 0;
     }
-    .f18{
-        font-size: 16px;
-    }
-    .lh20{
-        line-height: 1.5;
-    }
-    .f32{
-        font-size: 28px;
-    }
-
-    .f42{
-        font-size: 36px;
-    }
-    .f24{
-        font-size: 22px;
-    }
-    .f30{
-        font-size: 18px;
-    }
-
 
 }
+
 /* @media screen and (min-width : 768px) and ( max-width : 991px) */
 @media screen and (min-width : 768px) and ( max-width : 991.9px){
 
-    .f24{
-        font-size: 20px;
-    }
-    .f27{
-        font-size: 14px;
-    }
-    .f30{
-        font-size: 20px;
-    }
-    .f32{
-        font-size: 24px;
-    }
-    .f35{
-        font-size: 22px;
-    }
     .f36{
         font-size: 26px;
     }
@@ -73,25 +43,48 @@
     .f70{
         font-size: 42px;
     }
+    .header {
+        background: url(../images/nav_bg.png);
+        background-size: 130% 100%;
+        background-position: -191px;
+        height: 108px;
+    }
+    .head-l {
+        padding: 38px 0;
+        width: 15%;
+        float: left;
+    }
+    .head-r {
+        width: 85%;
+        float: left;
+    }
+    .nav > li > a {
+        position: relative;
+        display: block;
+        padding: 10px 5px 0;
+    }
     .question-area p{
         width: 84px;
         font-size: 12px;
     }
-    
+    .adv-line-r,.adv-line-l{display: none;}
 }
 /* @media screen and ( max-width : 767px) */
 @media screen and ( max-width : 767.9px){
+    .f17{
+        font-size: 15px;
+    }
     .f18{
-        font-size: 14px;
+        font-size: 16px;
     }
     .f20{
-        font-size: 14px;
+        font-size: 17px;
     }
     .f24{
         font-size: 18px;
     }
     .f27{
-        font-size: 14px;
+        font-size: 18px;
     }
     .f30{
         font-size: 18px;
@@ -125,9 +118,18 @@
     .header{
         background: none;
         height: auto;
+        padding: 10px 0;
+    }
+    .navbar-toggle{
+        margin-top: 15px;
     }
     .head-r-b{
         position: unset;
+    }
+    .head-l {
+        padding: 0;
+        width: 35%;
+        float: left;
     }
     .head-r-b .navbar-default .navbar-nav > li > a{
         color: #333;
@@ -149,7 +151,9 @@
     }
     .adv-item{
         width: 50%;
+        margin-top: 20px;
     }
+    
     .adv-r-t{
         
         padding: 10px 20px;
@@ -157,6 +161,9 @@
     }
     .adv-r{
         margin-top: 20px;
+    }
+    .news-list > div{
+        margin-top: 30px;
     }
     .top-pic{
         background: #163a86;
@@ -191,4 +198,5 @@
     .partners-item{
         width: 50%;
     }
+    .adv-line-r,.adv-line-l{display: none;}
 }
