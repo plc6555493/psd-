@@ -107,4 +107,6 @@
     .aq{
         width: auto;
     }
+    .abimg{position: unset;left: 0;top: 0;}
+    .abimg2{position: unset;right: 0;top: 0;}
 }

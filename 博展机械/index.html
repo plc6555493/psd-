@@ -316,12 +316,12 @@
                         </div>
                     </a>
                     <a href="" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 p0 pr">
-                        <img class="w1000" src="images/part3_item.png" alt="">
+                        <img class="abimg" src="images/da.png" alt="">
                     </a>
                 </li>
                 <li class="clearfix">
                     <a href="" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 p0 pr">
-                        <img class="w1000" src="images/part3_item.png" alt="">
+                        <img class="abimg2" src="images/da.png" alt="">
                     </a>
                     <a href="" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 p0 pp">
                         <div class="flex part3-item-txt">
@@ -705,7 +705,15 @@
             let index = $(this).index();
             $('.part7-info-b-i').eq(index).show().siblings().hide();
         })
-       
+        if (width > 767) {
+            let da1 = $('.abimg').height();
+            let da2 = $('.abimg2').height();
+            $('.abimg').parent().height(da1 + 'px')
+            $('.abimg2').parent().height(da1 + 'px')
+        } else {
+            return
+        }
+
     })
 
 </script>

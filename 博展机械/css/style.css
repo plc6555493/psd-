@@ -639,7 +639,6 @@ input:focus{
 .item-small-img i{width: 50%;display: inline-block;padding: 10px;float: left;}
 .pp{padding: 0 20px;}
 .part3 .big-img1{display: flex;}
-.da{position: absolute;left: 0;top: 0;}
 
 .p-head{}
 .bg-c{background: url(../images/c.png) no-repeat;background-size: 100% auto;background-position: center top;}
@@ -732,5 +731,5 @@ input:focus{
 .foot-nav a{width: 50%;color: #fff;font-weight: bold;line-height: 4;}
 .code{margin-top: 50px;}
 
-
-
+.abimg{position: absolute;left: 0;top: 0;}
+.abimg2{position: absolute;right: 0;top: 0;}
