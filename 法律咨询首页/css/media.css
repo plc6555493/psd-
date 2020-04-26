@@ -1,0 +1,208 @@
+/* @media screen and ( max-width : 1200px) */
+@media screen and ( min-width : 1200px){
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .container1565{
+        width: 1565px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+}
+/* @media screen and (min-width : 992px) and ( max-width : 1199px) */
+@media screen and ( max-width : 1199.9px){
+
+
+
+}
+/* @media screen and (min-width : 768px) and ( max-width : 991px) */
+@media screen and ( max-width : 991px){
+
+    
+    .f36{
+        font-size: 26px;
+    }
+    .f42{
+        font-size: 30px;
+    }
+    .f53{
+        font-size: 30px;
+    }
+    .f56{
+        font-size: 32px;
+    }
+    .f70{
+        font-size: 42px;
+    }
+    header{
+        height: auto;
+    }
+    .logo-box {
+        width: 50%;
+        padding-left: 15px;
+        padding-top: 0px;
+    }
+    .navbar{
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .collapse {
+        margin-top: -43px;
+    }
+    .navbar-default .navbar-nav > li > a{
+        padding-top: 15px;
+    }
+    .navbar-default .navbar-nav > li{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .search{
+        background-size: 100% auto;
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .search-box{
+        height: 40px;
+    }
+    .search-input{
+        width: 85%;
+        padding-left: 10px;
+    
+    }
+    .search-input::placeholder{
+        font-size: 12px;
+    }
+    .search-btn{
+        flex: 1;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    .search-icon{
+        width: 12px;
+        height: 12px;
+    }
+    .part2-content{
+        flex-direction: column;
+    }
+    .part2-left,.part2-right{width: 100%;}
+    .part2-right h2{font-size: 60px;text-align: center;padding-bottom: 30px;}
+    .part2-right p{line-height: 2;text-align: center;}
+}
+/* @media screen and ( max-width : 767px) */
+@media screen and ( max-width : 767px){
+    .f18{
+        font-size: 16px;
+    }
+    .f20{
+        font-size: 17px;
+    }
+    .f24{
+        font-size: 18px;
+    }
+    .f27{
+        font-size: 18px;
+    }
+    .f30{
+        font-size: 18px;
+    }
+    .f32{
+        font-size: 20px;
+    }
+    .f35{
+        font-size: 22px;
+    }
+    .f36{
+        font-size: 22px;
+    }
+    .f42{
+        font-size: 26px;
+    }
+    .f53{
+        font-size: 20px;
+    }
+    .f56{
+        font-size: 32px;
+    }
+    .f70{
+        font-size: 32px;
+    }
+    header{
+        height: auto;
+    }
+    .logo-box {
+        width: 50%;
+        padding-left: 15px;
+        padding-top: 0px;
+    }
+    .navbar{
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .collapse{
+        height: auto;
+    }
+    .navbar-default .navbar-nav > li > a{
+        padding-top: 15px;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a{
+        color: #fff;
+    }
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+        color: #41435e;
+        background-color: #fff;
+    }
+    .navbar-default .navbar-nav > li:hover > .a-hover::before, .navbar-default .navbar-nav > li:focus > .a-hover::before{
+        display: none;
+    }
+    .search{
+        background-size: 100% auto;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .search-box{
+        height: 30px;
+    }
+    .search-input{
+        width: 75%;
+        padding-left: 10px;
+    
+    }
+    .search-input::placeholder{
+        font-size: 12px;
+    }
+    .search-btn{
+        flex: 1;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    .search-icon{
+        width: 12px;
+        height: 12px;
+    }
+    .part2-content{
+        flex-direction: column;
+    }
+    .part2-left,.part2-right{width: 100%;}
+    .part2-right h2{font-size: 30px;text-align: center;padding-bottom: 30px;}
+    .part2-right p{line-height: 2;text-align: center;}
+    .item a{
+        flex-direction: column-reverse;
+    }
+    .i-left {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .item1,.item2,.item3{margin: 20px 0;padding-left: 10px;padding-right: 10px;}
+    .item1{margin-top: -20px;}
+    .part2-right{padding-top: 20px;flex: 1;padding-right: 0px;}
+    .part2-content{padding-left: 10px;padding-right: 10px;}
+    .info-input{width: 96%;}
+    .tab-text{padding: 10px;}
+}
