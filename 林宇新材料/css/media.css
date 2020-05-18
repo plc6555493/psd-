@@ -1,0 +1,227 @@
+/* @media screen and ( max-width : 1200px) */
+@media screen and ( min-width : 1200px){
+    .container{
+        width: 1222px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .navbar-nav > li:first-child .lala{
+        padding-left: 0;
+    }
+
+}
+/* @media screen and (min-width : 992px) and ( max-width : 1199px) */
+@media screen and ( max-width : 1199.9px){
+    footer p{
+        white-space: unset;
+    }
+
+
+}
+/* @media screen and (min-width : 768px) and ( max-width : 991px) */
+@media screen and ( max-width : 991px){
+
+    
+    .f36{
+        font-size: 26px;
+    }
+    .f42{
+        font-size: 30px;
+    }
+    .f53{
+        font-size: 30px;
+    }
+    .f56{
+        font-size: 32px;
+    }
+    .f70{
+        font-size: 42px;
+    }
+    .banner_text{
+        position: absolute;
+        z-index: 3;
+        right: 10%;
+        top: 50%;
+        transform: translate(0,-50%);
+        max-width: 770px;
+        width: 80%;
+        padding: 1%;
+        background-color: rgba(255, 255, 255,.6);
+    }
+    .aww{
+        padding: 10px;
+    }
+    .waw{
+        padding-top: 10%;
+    }
+    .part2_item{
+        margin: 0;
+    }
+    .yo{
+        width: 100%;
+        justify-content: center;
+    }
+    .yo .mgj{
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+        margin: 2%;
+        overflow: hidden;
+    }
+    
+    .ya1{
+        transform:translate(-150px,155px) rotate(-45deg);
+    }
+    .ya2{
+        transform: translate(114px,-32px) rotate(-45deg);
+    }
+    .mt50{
+        margin-top: 50px;
+    }
+    .nav > li > a {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .cpinfo{
+        position: static;
+        transform: unset;
+        margin: 0 auto;
+        margin-top: 20px;
+
+    }
+    .f63{
+        font-size: 30px;
+    }
+    
+}
+/* @media screen and ( max-width : 767px) */
+@media screen and ( max-width : 767px){
+    .f18{
+        font-size: 16px;
+    }
+    .f20{
+        font-size: 17px;
+    }
+    .f24{
+        font-size: 18px;
+    }
+    .f27{
+        font-size: 18px;
+    }
+    .f26{
+        font-size: 18px;
+    }
+    .f30{
+        font-size: 18px;
+    }
+    .f32{
+        font-size: 20px;
+    }
+    .f35{
+        font-size: 22px;
+    }
+    .f36{
+        font-size: 22px;
+    }
+    .f42{
+        font-size: 26px;
+    }
+    .f50{
+        font-size: 22px;
+    }
+    .f60{
+        font-size: 26px;
+    }
+    .f53{
+        font-size: 20px;
+    }
+    .f56{
+        font-size: 32px;
+    }
+    .f63{
+        font-size: 22px;
+    }
+    .f70{
+        font-size: 32px;
+    }
+    .hd3{
+        height: auto;
+    }
+    .navbar-header{
+        padding-right: 10px;
+    }
+    .navbar-nav > li > .dropdown-menu{
+        transform: translate(0,0);
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
+        padding-left: 70px;
+    }
+    .logo_mb{
+        width: 200px;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    .sanjiao {
+        width: 45px;
+    }
+    .part2_item {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .balabala {
+        margin-top: 20px;
+        padding-right:0px;
+    }
+    .aww{
+        padding: 10px;
+    }
+    .part4{
+        background: url('') #f2f2f2 ;
+    }
+    .yo{
+        width: 100%;
+        justify-content: center;
+    }
+    .yo .mgj{
+        width: 70px;
+        height: 70px;
+        display: inline-block;
+        margin: 2%;
+        overflow: hidden;
+    }
+    .yo .mgj img{
+    }
+    .ya1{
+        transform:translate(-50px,60px) rotate(-45deg);
+    }
+    .ya2{
+        transform: translate(70px,-26px) rotate(-45deg);
+    }
+    .wawa{
+        height: 230px;
+    }
+    .a_cpphoto{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .cpinfo{
+        position: static;
+        transform: unset;
+        margin-top: 20px;
+    }
+    .environment>div{
+        margin-bottom: 20px;
+    }
+    .nav_left{
+        margin-bottom: 30px;
+    }
+    .nav_left.pl0{
+        padding-left: 15px;
+    }
+    .a_new a .pl0{
+        padding-left: 15px;
+        margin-bottom: 15px;
+    }
+    
+}

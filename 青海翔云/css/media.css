@@ -1,0 +1,152 @@
+/* @media screen and ( max-width : 1200px) */
+@media screen and ( min-width : 1200px){
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+}
+/* @media screen and (min-width : 992px) and ( max-width : 1199px) */
+@media screen and ( max-width : 1199.9px){
+
+
+
+}
+/* @media screen and (min-width : 768px) and ( max-width : 991px) */
+@media screen and ( max-width : 991px){
+
+    
+    .f36{
+        font-size: 26px;
+    }
+    .f42{
+        font-size: 30px;
+    }
+    .f53{
+        font-size: 30px;
+    }
+    .f56{
+        font-size: 32px;
+    }
+    .f70{
+        font-size: 42px;
+    }
+    .part2_pic li {
+        min-height: 31vh;
+    }
+    .jojo {
+        margin-bottom: 35px;
+    }
+}
+/* @media screen and ( max-width : 767px) */
+@media screen and ( max-width : 767px){
+    .f18{
+        font-size: 16px;
+    }
+    .f20{
+        font-size: 17px;
+    }
+    .f24{
+        font-size: 18px;
+    }
+    .f27{
+        font-size: 18px;
+    }
+    .f30{
+        font-size: 18px;
+    }
+    .f32{
+        font-size: 20px;
+    }
+    .f35{
+        font-size: 22px;
+    }
+    .f36{
+        font-size: 22px;
+    }
+    .f42{
+        font-size: 26px;
+    }
+    .f53{
+        font-size: 20px;
+    }
+    .f56{
+        font-size: 32px;
+    }
+    .f70{
+        font-size: 32px;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a{
+        color: #fff;
+    }
+    .logo_xs{
+        display: inline-block;
+    }
+    .part1_content .pl0{
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+    .part1_content .pr0{
+        padding-left: 0;
+    }
+    .menu_nav li{
+        width: 33.33%;
+        padding: 0 3%;
+        margin-bottom: 20px;
+    }
+    .part1 {
+        padding: 10px 0 10px;
+    }
+    .part2_pic{
+        padding: 0;
+    }
+    .part2_tab li {
+        height: 28px;
+        width: 29.33%;
+        padding: 0 0;
+        line-height: 28px;
+        border-radius: 14px;
+        font-size: 15px;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 10px;
+    }
+    .part2_tab{justify-content: start;}
+    .part2_pic{margin-top: 10px;}
+    .part2_pic li{
+        min-height: 60vh;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .part2{
+        padding: 10px 0 10px;
+    }
+    .part3{
+        padding-bottom: 20px;
+    }
+    .part3_content{
+        flex-wrap: wrap;
+    }
+    .part3_process{
+        width: 22%;
+        padding: 2%;
+        margin-bottom: 10px;
+        font-size: 12px;
+
+    }
+    .effects{
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .QA > h2{text-align: center;}
+    .part4_content{
+        margin-top: 10px;
+    }
+    .part4_right{margin-top: 10px;}
+    .brbr{border: none;}
+    .pdd{padding-left: 0;}
+    .part1_img{width: 100%;}
+    .part1_content_r p{padding-right: 0;}
+}
