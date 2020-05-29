@@ -1,0 +1,76 @@
+/* @media screen and ( max-width : 1200px) */
+@media screen and ( min-width : 1200px){
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+}
+/* @media screen and (min-width : 992px) and ( max-width : 1199px) */
+@media screen and ( max-width : 1199.9px){
+
+
+
+}
+/* @media screen and (min-width : 768px) and ( max-width : 991px) */
+@media screen and ( max-width : 991px){
+
+    
+    .f36{
+        font-size: 26px;
+    }
+    .f42{
+        font-size: 30px;
+    }
+    .f53{
+        font-size: 30px;
+    }
+    .f56{
+        font-size: 32px;
+    }
+    .f70{
+        font-size: 42px;
+    }
+    
+}
+/* @media screen and ( max-width : 767px) */
+@media screen and ( max-width : 767px){
+    .f18{
+        font-size: 16px;
+    }
+    .f20{
+        font-size: 17px;
+    }
+    .f24{
+        font-size: 18px;
+    }
+    .f27{
+        font-size: 18px;
+    }
+    .f30{
+        font-size: 18px;
+    }
+    .f32{
+        font-size: 20px;
+    }
+    .f35{
+        font-size: 22px;
+    }
+    .f36{
+        font-size: 22px;
+    }
+    .f42{
+        font-size: 26px;
+    }
+    .f53{
+        font-size: 20px;
+    }
+    .f56{
+        font-size: 32px;
+    }
+    .f70{
+        font-size: 32px;
+    }
+    
+}

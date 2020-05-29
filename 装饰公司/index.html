@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/SOURCEHANSANSCN-NORMAL.css" />
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" />
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="container clearfix header_top">
+            <div class="col-lg-4 pr15">
+                <img style="width: 317px;height: 97px;"
+                    src="http://11175493.s21i.faiusr.com/4/ABUIABAEGAAgk6i4vwUo_uHdmgUwjgU4yAE.png" alt="">
+            </div>
+            <form action="" class="col-lg-5 search_box">
+                <div class="flex ac">
+                    <input class="search_input" type="text" />
+                    <button class="search_btn">搜索</button>
+                </div>
+                <div class="mt10">
+                    <a class="f12 mr5" href="#">欧式风格</a>
+                    <a class="f12 mr5" href="#">欧式风格</a>
+                    <a class="f12 mr5" href="#">欧式风格</a>
+                </div>
+            </form>
+            <div class="col-lg-3 mt15">
+                <div class="fl">
+                    <img src="images/tel.png" alt="">
+                </div>
+                <div class="fl">
+                    <p class="f20 mt5 redd">1222222222</p>
+                    <p class="f20  redd">1222222222</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav_p">
+            <div class="container">
+                <div>
+                    <ul class="clearfix nav_ul">
+                        <li class="fl">
+                            <a class="nav_a" href="">首页</a>
+                        </li>
+                        <li class="fl">
+                            <a class="nav_a active" href="">首页</a>
+                        </li>
+                        <li class="fl">
+                            <a class="nav_a" href="">首页</a>
+                            <ul class="dropdown_p">
+                                <li>
+                                    <a class="drop_a" href="">首页</a>
+                                </li>
+                                <li>
+                                    <a class="drop_a" href="">首页</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="fl">
+                            <a class="nav_a" href="">首页</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"
+                        style="background-image:url(http://10485543.s21i.faiusr.com/2/ABUIABACGAAg_OrsvAUolNyBmgIwgA84igU.jpg);background-repeat: no-repeat;background-size: cover;">
+                    </div>
+                    <div class="swiper-slide"
+                        style="background-image:url(http://10485543.s21i.faiusr.com/2/ABUIABACGAAg_OrsvAUolNyBmgIwgA84igU.jpg);background-repeat: no-repeat;background-size: cover;">
+                    </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="next_p"></div>
+                <div class="prev_p"></div>
+            </div>
+
+            <form action="" class="yuyue">
+                <div class="yuyue_title">预约装修</div>
+                <div class="yuyue_content">
+                    <div class="yuyue_item">
+                        <span class="fwb mr10 yuyue_name">您的姓名</span>
+                        <input type="text" id="name" class="yuyue_input" name="name" placeholder="先生/女士"
+                            onchange="getName()" />
+                        <span style="color: red;margin-left: 4px;">*</span>
+                    </div>
+                    <div class="yuyue_item">
+                        <span class="fwb mr10 yuyue_name">联系电话</span>
+                        <select name="country" id="country" class="select_box">
+                            <option value='ch'>中国大陆+86</option>
+                            <option value='hk'>香港+852</option>
+                            <option value='mc'>澳门+853</option>
+                            <option value='tw'>台湾+886</option>
+                            <option value='kr'>韩国+82</option>
+                            <option value='jp'>日本+81</option>
+                            <option value='ac'>美国+1</option>
+                            <option value='cnd'>加拿大+1</option>
+                            <option value='el'>英国+44</option>
+                            <option value='mls'>马来西亚+60</option>
+                            <option value='tl'>泰国+66</option>
+                            <option value='vtn'>越南+84</option>
+                            <option value='fc'>法国+33</option>
+                            <option value='plp'>菲律宾+63</option>
+                            <option value='idns'>印度尼西亚+62</option>
+                            <option value='itl'>意大利+39</option>
+                            <option value='rs'>俄罗斯+7</option>
+                            <option value='zl'>新西兰+64</option>
+                            <option value='nl'>荷兰+31</option>
+                            <option value='swd'>瑞典+46</option>
+                            <option value='atl'>澳大利亚+61</option>
+                            <option value='gm'>德国+49</option>
+                            <option value='snp'>新加坡+65</option>
+                            <option value='fld'>芬兰+358</option>
+                            <option value='dmk'>丹麦+45</option>
+                            <option value='isr'>以色列+00972</option>
+                        </select>
+                        <input type="number" id="phone" onchange="getPhone()" class="yuyue_input bis"
+                            placeholder="必填" />
+                        <span style="color: red;margin-left: 4px;">*</span>
+                    </div>
+                    <div class="yuyue_item">
+                        <span class="fwb mr10 yuyue_name">房屋类型</span>
+                        <select name="type" id="type" class="select_box">
+                            <option value='none'>请选择</option>
+                            <option value='一房一厅'>一房一厅</option>
+                            <option value='两房一厅'>两房一厅</option>
+                            <option value='三房一厅'>三房一厅</option>
+                            <option value='三房两厅'>三房两厅</option>
+                            <option value='四房一厅'>四房一厅</option>
+                            <option value='四房两厅'>四房两厅</option>
+                            <option value='别墅'>别墅</option>
+                            <option value='其他'>其他</option>
+                        </select>
+                    </div>
+                    <div class="yuyue_item">
+                        <span class="fwb mr10 yuyue_name">装修面积</span>
+                        <select name="area" id="area" class="select_box">
+                            <option value='none'>请选择</option>
+                            <option value='50㎡以下'>50㎡以下</option>
+                            <option value='50-70㎡'>50-70㎡</option>
+                            <option value='70-100㎡'>70-100㎡</option>
+                            <option value='100-120㎡'>100-120㎡</option>
+                            <option value='120-150㎡'>120-150㎡</option>
+                            <option value='150-200㎡'>150-200㎡</option>
+                            <option value='200㎡以上'>200㎡以上</option>
+                        </select>
+                    </div>
+                    <div class="yuyue_item">
+                        <span class="fwb mr10 yuyue_name">验证码</span>
+                        <input type="text" id="yanzhengma" class="yuyue_input yanzhengma" onchange="getYanzhengma()"
+                            name="code" maxlength="4" />
+                        <img class="yanzhengma_tu" src="images/yanzhengma.jpg" alt="">
+                        <span class="change">换一张</span>
+                        <span style="color: red;margin-left: 4px;">*</span>
+                    </div>
+
+                    <div class="warning"></div>
+
+                    <div id="false_submit" class="yuyue_submit" onclick="falseSubmit()">提交</div>
+                    <button id="true_submit" class="yuyue_submit" type="submit" onclick="trueSubmit()">提交</button>
+
+                </div>
+            </form>
+        </div>
+    </header>
+
+    <section class="part2">
+        <div class="container">
+            <div class="fl part2_left">
+                <img class="part2_left_img" src="./images/pic1.png" alt="">
+                <h3>关于我们</h3>
+                <h2>ABOUT US</h2>
+                <p>深圳市伍贰零建筑装饰工程有限公司是一家集室内外设计、预算、施工、材料于一体的专业化装饰公司。公司从事装饰装修行业多年，有着创新的设计、合理的报价，还有一批独立的专业化的施工队伍，确保施工绿色环保，安全文明。
+                </p>
+                <p>自公司成立以来，全体员工一直秉承“以质量求生存，以信誉求发展”的经营理念，始终坚持以客户的需求和满意为核心，以“诚信”为宗旨，不断的用优质、精美、具有创造力的空间装饰产品为客户提供更大的价值回报，从而使公司不断发展壮大。
+                </p>
+            </div>
+            <div class="fl part2_right">
+                <div class="fl part2_right_pic">
+                    <img src="./images/pic2.png" alt="">
+                </div>
+                <div class="fl part2_text">
+                    <div class="part2_right_item">
+                        <h3>企业文化</h3>
+                        <p>“崇尚自由，追求完美”，凭借超前的设计构思、合理的预算报价、精良的施工工艺，优质的全程服务，真诚的为每一位顾客，量身定制全新、优雅、舒适的居家生活、文化空间。 </p>
+                    </div>
+                    <div class="part2_right_item">
+                        <h3>企业文化</h3>
+                        <p>“崇尚自由，追求完美”，凭借超前的设计构思、合理的预算报价、精良的施工工艺，优质的全程服务，真诚的为每一位顾客，量身定制全新、优雅、舒适的居家生活、文化空间。 </p>
+                    </div>
+                    <div class="part2_right_item">
+                        <h3>企业文化</h3>
+                        <p>“崇尚自由，追求完美”，凭借超前的设计构思、合理的预算报价、精良的施工工艺，优质的全程服务，真诚的为每一位顾客，量身定制全新、优雅、舒适的居家生活、文化空间。 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="part3">
+        <div class="container">
+            <div class="title_box">
+                <h2>装修风格</h2>
+                <h3>DECORATE A STYLE</h3>
+                <div class="tc">
+                    <img src="./images/title.png" alt="">
+                </div>
+            </div>
+
+            <div class="clearfix">
+                <div class="style_box">
+                    <div class="tc">
+                        <img src="./images/pic3.png" alt="">
+                    </div>
+                    <h3>简约风格</h3>
+                    <div class="mt15">
+                        <p>
+                            <span>简约风格的特色是将设计的元素、色彩、</span>
+                        </p>
+                        <p>
+                            <span>照明原材料简化到最少但对色</span>
+                        </p>
+                        <p>
+                            <span>彩材料的质感要求很高</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="style_box">
+                    <div class="tc">
+                        <img src="./images/pic3.png" alt="">
+                    </div>
+                    <h3>简约风格</h3>
+                    <div class="mt15">
+                        <p>
+                            <span>简约风格的特色是将设计的元素、色彩、</span>
+                        </p>
+                        <p>
+                            <span>照明原材料简化到最少但对色</span>
+                        </p>
+                        <p>
+                            <span>彩材料的质感要求很高</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="style_box">
+                    <div class="tc">
+                        <img src="./images/pic3.png" alt="">
+                    </div>
+                    <h3>简约风格</h3>
+                    <div class="mt15">
+                        <p>
+                            <span>简约风格的特色是将设计的元素、色彩、</span>
+                        </p>
+                        <p>
+                            <span>照明原材料简化到最少但对色</span>
+                        </p>
+                        <p>
+                            <span>彩材料的质感要求很高</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="style_box">
+                    <div class="tc">
+                        <img src="./images/pic3.png" alt="">
+                    </div>
+                    <h3>简约风格</h3>
+                    <div class="mt15">
+                        <p>
+                            <span>简约风格的特色是将设计的元素、色彩、</span>
+                        </p>
+                        <p>
+                            <span>照明原材料简化到最少但对色</span>
+                        </p>
+                        <p>
+                            <span>彩材料的质感要求很高</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="part4">
+        <div class="container">
+            <div class="part4_title">
+                <h2>我们的优势</h2>
+                <h3>OUR ADVANTAGES</h3>
+            </div>
+            <div class="part4_content clearfix">
+                <div class="part4_item clearfix">
+                    <img src="./images/pic4.png" alt="">
+                    <div class="fl fk_text">
+                        <h4>20年专业装修服务</h4>
+                        <p>拥有20年专业经验，为深圳千家万户提供了专业的装修服务，并赢得了业主们的一致认可</p>
+                    </div>
+                </div>
+                <div class="part4_item clearfix">
+                    <img src="./images/pic4.png" alt="">
+                    <div class="fl fk_text">
+                        <h4>20年专业装修服务</h4>
+                        <p>拥有20年专业经验，为深圳千家万户提供了专业的装修服务，并赢得了业主们的一致认可</p>
+                    </div>
+                </div>
+                <div class="part4_item clearfix">
+                    <img src="./images/pic4.png" alt="">
+                    <div class="fl fk_text">
+                        <h4>20年专业装修服务</h4>
+                        <p>拥有20年专业经验，为深圳千家万户提供了专业的装修服务，并赢得了业主们的一致认可</p>
+                    </div>
+                </div>
+                <div class="part4_item clearfix">
+                    <img src="./images/pic4.png" alt="">
+                    <div class="fl fk_text">
+                        <h4>20年专业装修服务</h4>
+                        <p>拥有20年专业经验，为深圳千家万户提供了专业的装修服务，并赢得了业主们的一致认可</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="part5">
+        <div class="container">
+            <div class="title_box">
+                <h2>新闻资讯</h2>
+                <h3>NEWS</h3>
+                <div class="tc">
+                    <img src="./images/title.png" alt="">
+                </div>
+            </div>
+
+            <div class="clearfix">
+                <div class="part5_item">
+                    <img class="w1000" src="./images/pic5.png" alt="">
+                    <h2>
+                        <a href="#">地方怕乱不怕小 看小厨房布局如何逆袭</a>
+                    </h2>
+                    <p>厨房设计最基本的是三角形空间，也就是水槽、操作台和灶台的位置，最理想的就是一个三角形，但是狭长状的厨房很难做到这点，而一字形与L形设计则成为最常见且最适宜的厨房布局...</p>
+                </div>
+                <div class="part5_item">
+                    <img class="w1000" src="./images/pic5.png" alt="">
+                    <h2>
+                        <a href="#">地方怕乱不怕小 看小厨房布局如何逆袭</a>
+                    </h2>
+                    <p>厨房设计最基本的是三角形空间，也就是水槽、操作台和灶台的位置，最理想的就是一个三角形，但是狭长状的厨房很难做到这点，而一字形与L形设计则成为最常见且最适宜的厨房布局...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="part6">
+        <div class="container clearfix">
+            <a class="part6_item" href="#" target="_blank">
+                <div class="part6_item_init">
+                    <img src="./images/pic7.jpg" alt="">
+                </div>
+                <div class="part6_item_hover">
+                    <img src="./images/pic6.png" alt="">
+                </div>
+            </a>
+            <a class="part6_item" href="#" target="_blank">
+                <div class="part6_item_init">
+                    <img src="./images/pic7.jpg" alt="">
+                </div>
+                <div class="part6_item_hover">
+                    <img src="./images/pic6.png" alt="">
+                </div>
+            </a>
+            <a class="part6_item" href="#" target="_blank">
+                <div class="part6_item_init">
+                    <img src="./images/pic7.jpg" alt="">
+                </div>
+                <div class="part6_item_hover">
+                    <img src="./images/pic6.png" alt="">
+                </div>
+            </a>
+            <a class="part6_item" href="#" target="_blank">
+                <div class="part6_item_init">
+                    <img src="./images/pic7.jpg" alt="">
+                </div>
+                <div class="part6_item_hover">
+                    <img src="./images/pic6.png" alt="">
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="part7">
+        <div class="container">
+            <div class="title_box">
+                <h2>案例展示</h2>
+                <h3>CASE</h3>
+                <div class="tc">
+                    <img src="./images/title.png" alt="">
+                </div>
+            </div>
+            <div class="part7_content clearfix">
+                <a href="#" class="part7_item_1">
+                    <img src="./images/pic8.jpg" width=100% alt="">
+                    <p class="nichousha">现代简约风格三口之家</p>
+                </a>
+                <div class="dib part7_item_2_box">
+                    <a href="#" class="part7_item_2">
+                        <img src="./images/pic9.jpg" alt="" width="100%">
+                        <p class="nichousha">现代简约风格三口之家</p>
+                    </a>
+                    <a href="#" class="part7_item_2">
+                        <img src="./images/pic9.jpg" alt="" width="100%">
+                        <p class="nichousha">现代简约风格三口之家</p>
+                    </a>
+                </div>
+                <div class="dib part7_item_3_box">
+                    <a href="#" class="part7_item_3">
+                        <img src="./images/pic10.jpg" alt="" width="100%">
+                        <p class="nichousha">现代简约风格三口之家</p>
+                    </a>
+                    <a href="#" class="part7_item_3">
+                        <img src="./images/pic10.jpg" alt="" width="100%">
+                        <p class="nichousha">现代简约风格三口之家</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container clearfix wtf">
+            <div class="footer_left">
+                <form action="">
+                    <div class="usb">
+                        <span class="mfk_name">房屋类型</span>
+                        <input type="text" class="mfk" id="house_type" onchange="getHouseTypeValue()">
+                        <span style="color: red;margin-left: 5px;">*</span>
+                    </div>
+                    <div class="usb">
+                        <span class="mfk_name">装修面积</span>
+                        <input type="text" class="mfk" id="house_area" onchange="getHouseAreaValue()">
+                        <span style="color: red;margin-left: 5px;">*</span>
+                    </div>
+                    <div class="usb">
+                        <span class="mfk_name">装修风格</span>
+                        <div class="checkbox_group">
+                            <div class="dib mr10">
+                                <input type="checkbox" id="check1" value="现代风格" checked="checked" />
+                                <label for="check1">现代风格</label>
+                            </div>
+                            <div class="dib mr10">
+                                <input type="checkbox" id="check2" value="古代风格" />
+                                <label for="check2">古代风格</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="usb">
+                        <span class="mfk_name">其它补充</span>
+                        <input type="text" class="mfk" id="house_other" onchange="getHouseOtherValue()">
+                        <span style="color: red;margin-left: 5px;">*</span>
+                    </div>
+                    <div class="usb">
+                        <span class="mfk_name">姓名</span>
+                        <input type="text" class="mfk" id="house_name" onchange="getHouseNameValue()">
+                        <span style="color: red;margin-left: 5px;">*</span>
+                    </div>
+                    <div class="usb">
+                        <span class="mfk_name">联系电话</span>
+                        <input type="number" maxlength="11" class="mfk" onchange="getHousePhoneValue()">
+                        <span style="color: red;margin-left: 5px;">*</span>
+                    </div>
+                    <div class="usb">
+                        <span class="mfk_name">验证码</span>
+                        <input type="text" class="mfk yzm" onchange="getHouseCodeValue()">
+                        <img class="yzm_img" src="./images/yanzhengma.jpg" alt="">
+                        <span class="ml10 hyz">换一张</span>
+                        <span style="color: red;margin-left: 5px;">*</span>
+                    </div>
+
+                    <div class="warningb"></div>
+                    <div class="bottom_submit" id="dummy_submit" onclick="dummySubmit()">提交</div>
+                    <button class="bottom_submit" id="real_submit">提交</button>
+                </form>
+            </div>
+            <div class="footer_right">
+                <div class="hxd">
+                    <img src="./images/icon1.png" alt="">
+                    <span>0755-33155199</span>
+                </div>
+                <div class="hxd">
+                    <img src="./images/icon1.png" alt="">
+                    <span>0755-33155199</span>
+                </div>
+                <div class="hxd">
+                    <img src="./images/icon1.png" alt="">
+                    <span>0755-33155199</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <p class="tc">2016 深圳市伍贰零建筑装饰工程有限公司 版权所有</p>
+                <div class="tc">
+                    <a href="#">手机版</a>
+                    <a href="#">手机版</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="back_top">
+        <img class="b_up" src="./images/up.png" alt="">
+        <img class="b_top" src="./images/top.png" alt="">
+    </div>
+
+
+</body>
+<script>
+    $(function () {
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'cube',
+            cubeEffect: {
+                slideShadows: false,
+                shadow: false,
+                shadowOffset: 100,
+                shadowScale: 0.6
+            },
+            autoplay: true,
+            loop: true,
+            grabCursor: true,
+            navigation: {
+                nextEl: '.next_p',
+                nextEl: '.prev_p',
+            },
+        });
+
+        const height = window.screen.height;
+        window.onscroll = function(){
+            let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            if (scrollTop > height){
+                $('.back_top').fadeIn()
+            } else {
+                $('.back_top').fadeOut()
+            }
+            if(scrollTop > 120){
+                $('.nav_p').css('position','fixed')
+            } else {
+                $('.nav_p').css('position','static')
+            }
+        }
+
+        $('.back_top').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            },300);
+        })
+
+
+
+    })
+
+    //banner表单
+    let namevalue = '';
+    let phonevalue = '';
+    let yanzhengmavalue = '';
+
+    const getName = () => {
+        namevalue = $('#name').val();
+        judgeValue()
+    }
+    const getPhone = () => {
+        phonevalue = $('#phone').val();
+        judgeValue()
+    }
+    const getYanzhengma = () => {
+        yanzhengmavalue = $('#yanzhengma').val();
+        judgeValue()
+    }
+
+    const judgeValue = () => {
+        console.log(123, namevalue, phonevalue, yanzhengmavalue)
+        if (namevalue.length > 0 && phonevalue.length > 0 && yanzhengmavalue.length > 0) {
+            $('#false_submit').hide();
+            $('#true_submit').show();
+        } else {
+            $('#false_submit').show();
+            $('#true_submit').hide();
+        }
+    }
+
+
+    const falseSubmit = () => {
+        $('.warning').show();
+        if (namevalue.length <= 0) {
+            $('.warning').html(`请输入“您的姓名”`)
+            return
+        }
+        if (phonevalue.length <= 0) {
+            $('.warning').html(`请输入“联系电话”`)
+            return
+        }
+        if (yanzhengmavalue.length <= 0) {
+            $('.warning').html(`请输入“验证码”`)
+            return
+        }
+
+    }
+    const trueSubmit = () => {
+        if (namevalue.length > 0 && phonevalue.length > 0 && yanzhengmavalue.length > 0) {
+            console.log('提交成功')
+        }
+
+    }
+
+    //底部表单
+
+    let houseTypeValue = '';
+    let houseAreaValue = '';
+    let houseOtherValue = '';
+    let houseNameValue = '';
+    let housePhoneValue = '';
+    let houseCodeValue = '';
+
+    const getHouseTypeValue = () => {
+        houseTypeValue = $('#house_type').val();
+        judgeButtomValue()
+    }
+    const getHouseAreaValue = () => {
+        houseAreaValue = $('#house_area').val();
+        judgeButtomValue()
+    }
+    const getHouseOtherValue = () => {
+        houseOtherValue = $('#house_other').val();
+        judgeButtomValue()
+    }
+    const getHouseNameValue = () => {
+        houseNameValue = $('#house_other').val();
+        judgeButtomValue()
+    }
+    const getHousePhoneValue = () => {
+        housePhoneValue = $('#house_other').val();
+        judgeButtomValue()
+    }
+    const getHouseCodeValue = () => {
+        houseCodeValue = $('#house_other').val();
+        judgeButtomValue()
+    }
+
+    const judgeButtomValue = () => {
+        if (houseTypeValue.length > 0 && houseAreaValue.length > 0 && houseOtherValue.length > 0 && houseNameValue.length > 0 && housePhoneValue.length > 0 && houseCodeValue.length > 0) {
+            $('#dummy_submit').hide();
+            $('#real_submit').show();
+        } else {
+            $('#dummy_submit').show();
+            $('#real_submit').hide();
+        }
+    }
+
+
+    const dummySubmit = () => {
+        $('.warningb').show();
+        if (houseTypeValue.length <= 0) {
+            $('.warningb').html(`请输入“房屋类型”`)
+            return
+        }
+        if (houseAreaValue.length <= 0) {
+            $('.warningb').html(`请输入“装修面积”`)
+            return
+        }
+        if (houseOtherValue.length <= 0) {
+            $('.warningb').html(`请输入“其它补充”`)
+            return
+        }
+        if (houseNameValue.length <= 0) {
+            $('.warningb').html(`请输入“姓名”`)
+            return
+        }
+        if (housePhoneValue.length <= 0) {
+            $('.warningb').html(`请输入“联系电话”`)
+            return
+        }
+        if (houseCodeValue.length <= 0) {
+            $('.warningb').html(`请输入“验证码”`)
+            return
+        }
+
+    }
+
+</script>
+
+</html>
