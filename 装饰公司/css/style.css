@@ -938,6 +938,10 @@ footer{
     margin-left: 10px;
     color: #fff;
     padding-left: 10px;
+    background: transparent;
+}
+.mfk option{
+    color: #333;
 }
 .checkbox_group{
     display: inline-block;
@@ -952,6 +956,13 @@ footer{
 }
 .checkbox_group label{
     color: #9b9b9b;
+}
+.banner_check input{
+    border: 1px solid #719f00;
+    background-color: #719f00;
+}
+.banner_check label{
+    color: #666;
 }
 .yzm{
     width: 124px;
@@ -1063,4 +1074,22 @@ footer{
 }
 .back_top:hover .b_up{
     opacity: 0;
+}
+
+.float_box{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999999;
+}
+.close_adv{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    overflow: hidden;
+    z-index: 99999;
+    background-color: #fff;
 }

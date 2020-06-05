@@ -88,6 +88,8 @@
                     style="background-image:url(http://10485543.s21i.faiusr.com/2/ABUIABACGAAg_OrsvAUolNyBmgIwgA84igU.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;">
                 </div>
             </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
         </div>
     </section>
 
@@ -133,7 +135,30 @@
                     <p class="tc mt10">首页首页</p>
                 </a>
             </li>
-
+            <li class="nav_menu_li">
+                <a href="#">
+                    <div class="w1000 circular_box">
+                        <img src="./images/menu.png" alt="">
+                    </div>
+                    <p class="tc mt10">首页首页</p>
+                </a>
+            </li>
+            <li class="nav_menu_li">
+                <a href="#">
+                    <div class="w1000 circular_box">
+                        <img src="./images/menu.png" alt="">
+                    </div>
+                    <p class="tc mt10">首页首页</p>
+                </a>
+            </li>
+            <li class="nav_menu_li">
+                <a href="#">
+                    <div class="w1000 circular_box">
+                        <img src="./images/menu.png" alt="">
+                    </div>
+                    <p class="tc mt10">首页首页</p>
+                </a>
+            </li>
         </ul>
     </section>
 
@@ -274,6 +299,10 @@
         autoplay: true,
         loop: true,
         grabCursor: true,
+        pagination: {
+            el: '.swiper-pagination',
+            bulletActiveClass: 'my-bullet-active',
+        },
 
     });
 

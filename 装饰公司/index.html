@@ -103,6 +103,19 @@
                         <span style="color: red;margin-left: 4px;">*</span>
                     </div>
                     <div class="yuyue_item">
+                        <span class="fwb mr10 yuyue_name">装修风格</span>
+                        <div class="checkbox_group banner_check">
+                            <div class="dib mr10">
+                                <input type="checkbox" id="bc1" value="现代风格" checked="checked" />
+                                <label for="bc1">现代风格</label>
+                            </div>
+                            <div class="dib mr10">
+                                <input type="checkbox" id="bc2" value="古代风格" />
+                                <label for="bc2">古代风格</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="yuyue_item">
                         <span class="fwb mr10 yuyue_name">联系电话</span>
                         <select name="country" id="country" class="select_box">
                             <option value='ch'>中国大陆+86</option>
@@ -451,6 +464,21 @@
                         <span style="color: red;margin-left: 5px;">*</span>
                     </div>
                     <div class="usb">
+                        <span class="mfk_name">房屋类型</span>
+                        <select name="tp1" id="tp1" class="mfk">
+                            <option value='none'>请选择</option>
+                            <option value='一房一厅'>一房一厅</option>
+                            <option value='两房一厅'>两房一厅</option>
+                            <option value='三房一厅'>三房一厅</option>
+                            <option value='三房两厅'>三房两厅</option>
+                            <option value='四房一厅'>四房一厅</option>
+                            <option value='四房两厅'>四房两厅</option>
+                            <option value='别墅'>别墅</option>
+                            <option value='其他'>其他</option>
+                        </select>
+                        <span style="color: red;margin-left: 5px;">*</span>
+                    </div>
+                    <div class="usb">
                         <span class="mfk_name">装修面积</span>
                         <input type="text" class="mfk" id="house_area" onchange="getHouseAreaValue()">
                         <span style="color: red;margin-left: 5px;">*</span>
@@ -527,9 +555,90 @@
         <img class="b_top" src="./images/top.png" alt="">
     </div>
 
+    <div class="float_box">
+        <div class="pr">
+            <a href="#" class="db">
+                <img src="http://11175493.s21i.faiusr.com/3/ABUIABADGAAgp8O4vwUo1OWz5gIwlAM40gE.gif.webp" width="100%"
+                    alt="">
+            </a>
+            <div class="close_adv">
+                <img width="100%" src="./images/close.png" alt="">
+            </div>
+        </div>
+    </div>
+
 
 </body>
 <script>
+    //漂浮广告
+    adv()
+    // window.onresize = function(){
+    //     adv()
+    // }
+
+    function adv() {
+        clearInterval(time)
+        width = document.body.clientWidth;
+        height = window.innerHeight;
+        let x = 0;
+        let xd = true;
+        let y = 0;
+        let yd = true;
+        let delay = 30;
+        const advWidth = $('.float_box').width();
+        const advHeight = $('.float_box').height();
+        console.log(width, height)
+        $('.close_adv').click(function () {
+            $('.float_box').hide()
+        })
+        var time = setInterval(() => { transform() }, delay);
+
+        $('.float_box').mouseover(function () {
+            clearInterval(time)
+        }).mouseout(function () {
+            time = setInterval(() => { transform() }, delay);
+        })
+
+        let transform = () => {
+            if (x + advWidth >= width && xd == true) {
+                xd = false;
+                x -= 2;
+            }
+            else if (x + advWidth < width && xd == true) {
+                x += 2
+            }
+            else if ((x + advWidth) < width && x > 0 && xd == false) {
+                x -= 2
+            }
+            else if (x <= 0 && xd == false) {
+                xd = true;
+                x += 2
+            } else {
+
+            }
+
+            if (y + advHeight >= height && yd == true) {
+                yd = false;
+                y -= 2;
+            }
+            else if (y + advHeight < height && yd == true) {
+                y += 2
+            }
+            else if ((y + advHeight) < height && y > 0 && yd == false) {
+                y -= 2
+            }
+            else if (y <= 0 && yd == false) {
+                yd = true;
+                y += 2
+            } else {
+
+            }
+            $('.float_box').css('transform', `translate(${x}px,${y}px)`)
+        }
+    }
+
+
+
     $(function () {
         var swiper = new Swiper('.swiper-container', {
             effect: 'cube',
@@ -549,24 +658,24 @@
         });
 
         const height = window.screen.height;
-        window.onscroll = function(){
+        window.onscroll = function () {
             let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-            if (scrollTop > height){
+            if (scrollTop > height) {
                 $('.back_top').fadeIn()
             } else {
                 $('.back_top').fadeOut()
             }
-            if(scrollTop > 120){
-                $('.nav_p').css('position','fixed')
+            if (scrollTop > 120) {
+                $('.nav_p').css('position', 'fixed')
             } else {
-                $('.nav_p').css('position','static')
+                $('.nav_p').css('position', 'static')
             }
         }
 
         $('.back_top').click(function () {
             $('body,html').animate({
                 scrollTop: 0
-            },300);
+            }, 300);
         })
 
 

@@ -573,7 +573,7 @@ header{
     height: 60px;
     border-radius: 50%;
     overflow: hidden;
-    background-color: #bb140d;
+    background: rgb(255, 157, 11);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -600,6 +600,12 @@ header{
     background: rgb(77, 77, 77);
 }
 .nav_menu_li:nth-child(even)  .circular_box{
+    background: rgb(255, 157, 11);
+}
+.nav_menu_li:nth-child(1) .circular_box,.nav_menu_li:nth-child(3) .circular_box,.nav_menu_li:nth-child(6) .circular_box,.nav_menu_li:nth-child(8) .circular_box{
+    background: rgb(77, 77, 77);
+}
+.nav_menu_li:nth-child(2) .circular_box,.nav_menu_li:nth-child(4) .circular_box,.nav_menu_li:nth-child(5) .circular_box,.nav_menu_li:nth-child(7) .circular_box{
     background: rgb(255, 157, 11);
 }
 .cases_title{
@@ -679,7 +685,10 @@ footer{
     background-size: auto 100%;
 }
 
-
+.my-bullet-active{
+    background-color: #fff;
+    opacity: 1;
+}
 
 
 

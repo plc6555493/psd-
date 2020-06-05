@@ -186,6 +186,9 @@ input:focus{
 .flex {
     display: flex;
 }
+.flex1 {
+    flex: 1;
+}
 .fw{
     flex-wrap: wrap;
 }
